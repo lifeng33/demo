@@ -1,0 +1,760 @@
+/*---------------------------------------公共的------------------------------------------------------------------------*/
+* {
+	word-wrap: break-word;
+	word-break: normal;
+	word-break: break-all;
+}
+
+body,iframe,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,button,textarea,p,blockquote,th,td
+	{
+	margin: 0;
+	padding: 0;
+}
+body{	
+    scrollbar-arrow-color: #fff; /*三角箭头的颜色*/
+    scrollbar-face-color: #e04203; /*立体滚动条的颜色（包括箭头部分的背景色）*/
+    scrollbar-3dlight-color: #ffa17c; /*立体滚动条亮边的颜色*/
+    scrollbar-highlight-color: #ffa17c; /*滚动条的高亮颜色（左阴影？）*/
+    scrollbar-shadow-color: #ffa17c; /*立体滚动条阴影的颜色*/
+    scrollbar-darkshadow-color: #ffa17c; /*立体滚动条外阴影的颜色*/
+    scrollbar-track-color: #ffa17c; /*立体滚动条背景颜色*/
+    scrollbar-base-color:#ffa17c; /*滚动条的基色*/	
+	}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+fieldset,img {
+	border: 0;
+}
+
+img {
+	vertical-align: middle;
+}
+
+address,caption,cite,code,dfn,em,var,optgroup {
+	font-style: inherit;
+	font-weight: inherit;
+}
+
+del,ins {
+	text-decoration: none;
+}
+
+li {
+	list-style: none;
+}
+
+caption {
+	text-align: left;
+}
+
+q:before,q:after {
+	content: '';
+}
+
+abbr,acronym {
+	border: 0;
+	font-variant: normal;
+}
+
+sup {
+	vertical-align: baseline;
+}
+
+sub {
+	vertical-align: baseline;
+}
+
+legend {
+	color: #000;
+}
+
+input,button,textarea,select,optgroup,option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+
+input,button,textarea,select {
+	font-size: 100%;
+	vertical-align: middle;
+}
+
+body {
+	font: 12px/ 1.5 arial;
+	color: #333;
+}
+
+.Clear {
+	width: 0px;
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	line-height: 0px;
+}
+.red{ color:#f60}
+
+.UTry-Button {
+	float: left;
+	margin-left: 5px;
+	height: 21px;
+	line-height: 21px;
+	background:url(../../../images/common/Grid/5/TableButtonBackground.jpg) repeat-x;
+	border: 1px solid #d3d3d3;
+	cursor: pointer;
+	display: block;
+	text-decoration: none;
+	padding-left: 15px;
+	padding-right: 15px;
+	color: #555555;
+	text-align: center;
+	font-family: 宋体;
+	font-size: 12px;
+}
+
+.UTry-Button:hover {
+	background: url(../../../images/common/Grid/5/TableSelectButtonBackground.jpg) repat-x;
+	text-decoration: none;
+	color: #555555;
+}
+
+.UTry-Edit-A {
+	text-decoration: none;
+	color: #f60;
+}
+
+.UTry-Edit-A img {
+}
+
+.UTry-Edit-A:hover {
+	text-decoration: underline;
+}
+
+/*---------------------------------------Grid------------------------------------------------------------------------*/
+.many_bg_Grid {
+	width: 22px;
+	height: 22px;
+	float: right;
+	cursor: pointer;
+	background: url(../../../images/common/Grid/5/many_bg_Grid.gif) no-repeat;
+}
+
+.UTry-GridTopDiv {
+	width: 98%;
+	padding: 10px 0;
+	margin: 0 auto;
+	height: 16px;
+	line-height: 16px;
+}
+
+.UTry-GridTopDiv .UTry-GridTopDivCurrentLogo {
+	height: 16px;
+	width: 16px;
+	background-position: 0px 0px;
+	float: left;
+}
+
+.UTry-GridTopDiv .UTry-GridTopDivCurrentFont {
+	float: left;
+	margin-left: 4px;
+	color: #333;
+}
+
+.UTry-GridTopDiv a {
+	float: left;
+	text-decoration: none;
+	color: #333;
+}
+
+.UTry-GridTopDiv a:hover {
+	text-decoration: underline;
+}
+
+.UTry-GridTopDiv .UTry-GridTopDivHelpFont {
+	float: right;
+	margin-right: 11px;
+	margin-top: 19px;
+	color: #8b8989;
+	cursor: pointer;
+}
+
+.UTry-GridTopDiv .UTry-GridTopDivHelpLogo {
+	height: 16px;
+	width: 16px;
+	margin-top: 16px;
+	margin-right: 3px;
+	background-position: -23px 0px;
+	float: right;
+}
+
+.UTry-GridTopDiv .UTry-GridTopDivExcelLogo {
+	height: 16px;
+	width: 16px;
+	margin-top: 16px;
+	margin-right: 3px;
+	background: url(../../../images/common/Grid/excel_logo.gif) no-repeat;
+	float: right;
+}
+
+.TableStyle {
+	border: 1px solid #edd9a7;
+	width: 98%;
+	background: #fff;
+	margin: 0 auto;
+	color: #333;
+	font-size: 12px;
+}
+
+.TableStyle th,.TableStyle td {
+	border: 1px solid #edd9a7;
+}
+
+.TableStyle th {
+	background: url(../../../images/common/Grid/5/TableThBackground.jpg) repeat;
+	background-size: contain;
+	text-align: center;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+}
+
+.TableStyle td {
+	text-align: center;
+	padding: 4px;
+}
+
+.TableStyle td.hover {
+	background: #f7eed9;
+}
+.TableStyle tr td.TableLastTd{
+	background: url(../../../images/common/Grid/5/TableLastTdBackground.jpg) repeat-x;
+	padding:0;
+	height:30px;
+}
+
+.TableStyle .TableTdCardinal {
+	
+}
+
+.TableStyle .TableTdEven {
+	
+}
+
+.TableStyle .TableTdCardinal a {
+	text-decoration: none;
+	color: #f60;
+}
+.TableStyle .TableTdCardinal a.UTry-Edit-A{
+	color:#f60;	
+}
+
+.TableStyle .TableTdCardinal a img {
+	border: 0px;
+	margin-top: 5px;
+}
+
+.TableStyle .TableTdEven a:hover {
+	text-decoration: underline;
+}
+
+.TableStyle .TableLastTd {
+	height: 22px;
+	line-height: 22px;
+	padding: 5px 0;
+	background: #373737;
+}
+
+.TableStyle .TableButton {
+	float: left;
+	margin-left: 5px;
+	height: 21px;
+	background: url(../../../images/common/Grid/5/TableButtonBackground.jpg) repeat-x;
+	border: 1px solid #d3d3d3;
+	cursor: pointer;
+	_margin-top: 5px;
+}
+
+.TableStyle .TableButtonFont {
+	margin-left: 15px;
+	margin-top: 4px;
+	text-align: center;
+	margin-right: 15px;
+	color: #555555;
+}
+
+.TableStyle .TableBottomFont {
+	margin-right: 5px;
+	float: right;
+	text-align: center;
+	line-height:22px;
+}
+
+.TableStyle .TableBottomIco1 {
+	background-position: -176px 0px;
+}
+
+.TableStyle .TableBottomIco1.hover{
+	background-position: -176px -22px;
+}
+
+.TableStyle .TableBottomIco2 {
+	background-position: -154px 0px;
+}
+
+.TableStyle .TableBottomIco2.hover {
+	background-position: -154px -22px;
+}
+
+.TableStyle .TableBottomIco3 {
+	background-position: -132px 0px;
+}
+
+.TableStyle .TableBottomIco3.hover {
+	background-position: -132px -22px;
+}
+
+.TableStyle .TableBottomIco4 {
+	background-position: -110px 0px;
+}
+.TableStyle .TableBottomIco4.hover{
+	background-position: -110px -22px;
+}
+.TableStyle .TableBottomIco5 {
+	background-position: -198px 0px;
+	margin-right: 10px;
+}
+.TableStyle .TableBottomIco5.hover{
+	background-position: -198px -22px;
+}
+
+.TableStyle .SelectTr {
+	background-color: #faffce;
+}
+
+.TableStyle .InputStyle {
+	width: 30px;
+	height: 20px;
+	line-height: 20px;
+	background: #fff;
+	border: 1px solid #fb7100;
+	color: #333;
+	text-align: center;
+	float: right;
+	margin-right: 5px;
+}
+
+.TableStyle .TableBottomSaveButton {
+	width: 22px;
+	height: 18px;
+	float: right;
+	margin-right: 17px;
+	background-position: 0px -25px;
+	cursor: pointer;
+	display: inline;
+}
+
+/*--------------------------------------------------TABS-------------------------------------------------------------*/
+.UTryTabs {
+	width: 98%;
+	margin: 0 auto;
+}
+
+.UTryTabs .TabContainer {
+	height: 28px;
+	background: url(../../../images/manager/Tabs/5/TabContainerBg.gif) left bottom repeat-x;
+}
+
+.UTryTabs .OneTab {
+	height: 30px;
+	float: left;
+	margin-right: 5px;
+	color: #333;
+	cursor: pointer;
+}
+
+.UTryTabs .TabLeft {
+	background: url(../../../images/manager/Tabs/5/TabLeft.gif) no-repeat;
+	width: 3px;
+	height: 28px;
+	float: left;
+}
+
+.UTryTabs .TabCenter {
+	background: url(../../../images/manager/Tabs/5/TabCenterBackground.gif) repeat-x;
+	height: 28px;
+	line-height: 25px;
+	padding: 0 6px;
+	float: left;
+}
+
+.UTryTabs .TabRight {
+	background: url(../../../images/manager/Tabs/5/TabRight.gif) no-repeat;
+	width: 3px;
+	height: 28px;
+	float: left;
+}
+
+.UTryTabs .TabCenterFont {
+	
+}
+
+.UTryTabs .SelectTabLeft {
+	background: url(../../../images/manager/Tabs/5/SelectTabLeft.gif) no-repeat;
+	width: 3px;
+	height: 28px;
+	float: left;
+}
+
+.UTryTabs .SelectTabCenter {
+	background: url(../../../images/manager/Tabs/5/SelectTabCenterBackground.gif) repeat-x;
+	height: 28px;
+	line-height: 25px;
+	padding: 0 6px;
+	float: left;
+	color: #fff;
+	font-weight: bold;
+}
+
+.UTryTabs .SelectTabRight {
+	background: url(../../../images/manager/Tabs/5/SelectTabRight.gif) no-repeat;
+	width: 3px;
+	height: 28px;
+	float: left;
+}
+
+.UTryTabs .SelectTabCenterFont {
+	
+}
+
+.UTryTabs .blankDiv {
+	
+}
+
+.UTryTabs .NoteDiv {
+	padding: 10px;
+	border-top: 0;
+}
+
+/*--------------------------------------------------TABS内TABS-------------------------------------------------------------*/
+.UTrySubTabs {
+	width: 98%;
+	font-family: 宋体;
+	color: #797979;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+.UTrySubTabs .TabSubContainer {
+	width: 100%;
+	height: 27px;
+}
+
+.UTrySubTabs .OneSubTab {
+	height: 27px;
+	float: left;
+	background: #fff;
+	cursor: pointer;
+}
+
+.UTrySubTabs .TabSubLeft {
+	background: url(../../../images/manager/Tabs/TabLeft.gif) no-repeat;
+	width: 5px;
+	height: 27px;
+	float: left;
+}
+
+.UTrySubTabs .TabSubCenter {
+	background:url(../../../images/manager/Tabs/TabCenterBackground.jpg) repeat-x;
+	height: 26px;
+	line-height: 26px;
+	text-align: center;
+	float: left;
+	border-bottom: 1px solid #cacaca;
+}
+
+.UTrySubTabs .TabSubRight {
+	background: url(../../../images/manager/Tabs/TabRight.gif) no-repeat;
+	width: 2px;
+	height: 27px;
+	float: left;
+}
+
+.UTrySubTabs .TabSubCenterFont {
+	margin-left: 7px;
+	margin-right: 7px;
+}
+
+.UTrySubTabs .SelectTabSubLeft {
+	background: url(../../../images/manager/Tabs/SelectTabLeft.gif) no-repeat;
+	width: 5px;
+	height: 27px;
+	float: left;
+}
+
+.UTrySubTabs .SelectTabSubCenter {
+	background:url(../../../images/manager/Tabs/SelectTabCenterBackground.jpg) repeat-x;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	float: left;
+}
+
+.UTrySubTabs .SelectTabSubRight {
+	background: url(../../../images/manager/Tabs/SelectTabRight.gif) no-repeat;
+	width: 2px;
+	height: 27px;
+	float: left;
+}
+
+.UTrySubTabs .SelectTabSubCenterFont {
+	margin-left: 7px;
+	margin-right: 7px;
+	color: #000000;
+}
+
+.UTrySubTabs .blankSubDiv {
+	border-bottom: 1px solid #cacaca;
+	height: 26px;
+}
+
+.UTrySubTabs .NoteSubDiv {
+	border: 1px solid #cacaca;
+	color: #555555;
+	padding: 10px;
+	border-top: 0;
+}
+
+/*--------------------------------------------------Detail-------------------------------------------------------------*/
+.UTry-DetailStyle {
+	background-color: #dadada;
+	border-collapse: collapse;
+	border: solid #dadada;
+	border-width: 1px 0 0 1px;
+	width: 98%;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #000000;
+	margin-bottom: 10px;
+}
+
+.UTry-DetailStyle .LabelTd {
+	border: solid #dadada;
+	border-width: 0 1px 1px 0;
+	padding: 2px;
+	text-align: right;
+	height: 29px;
+	color: #444444;
+	background-color: #fafafa;
+	padding-right: 12px;
+}
+
+.UTry-DetailStyle .TextTd {
+	border: solid #dadada;
+	border-width: 0 1px 1px 0;
+	padding: 2px;
+	text-align: left;
+	height: 29px;
+	color: #444444;
+	background-color: #ffffff;
+	padding-left: 12px;
+}
+
+.UTry-DetailStyle .DetailLastTd {
+	border: solid #dadada;
+	border-width: 0 1px 1px 0;
+	padding: 2px;
+	text-align: center;
+	height: 29px;
+	color: #e60000;
+	background-color: #ffffff;
+}
+
+/*--------------------------------------------------Form-------------------------------------------------------------*/
+.UTry-FormStyle {
+	border: 1px solid #edd9a7;
+	width: 98%;
+	background: #fff;
+	margin: 0 auto 10px auto;
+	color: #333;
+	font-size: 12px;
+}
+
+.UTry-FormStyle th {
+	background: url(../../../images/common/Grid/5/TableThBackground.jpg) repeat-x;
+	text-align: left;
+	height: 25px;
+	line-height: 25px;
+	color: #fff;
+	text-align: center;
+}
+
+.UTry-FormStyle td {
+	border: 1px solid #edd9a7;
+	padding: 3px;
+}
+
+.UTry-FormStyle .LabelTd {
+	text-align: right;
+	padding-right: 4px;
+}
+
+.UTry-FormStyle .TextTd {
+	
+}
+
+.TextTd input,.TextTd select,.ipt
+	{
+	/*background: #fff;*/
+	border: 1px solid #dfcb99;
+	height: 21px;
+	line-height: 21px;
+	width: 150px;
+	color: #333;
+}
+
+.TextTd textarea{
+	background: #fff;
+	border: 1px solid #dfcb99;
+	color: #333;
+}
+
+.UTry-FormStyle .FormLastTd {
+	background:url(../../../images/common/Grid/5/TableLastTdBackground.jpg) repeat-x;
+	padding:0;
+	height:30px;
+}
+
+.UTry-FormStyle .ValidInfo {
+	color: #e60000;
+	text-align: center;
+}
+
+.UTry-FormStyle .FormInput {
+	width: 200px;
+}
+
+.UTry-FormStyle .FormButtonDiv {
+	text-align: center;
+}
+
+.UTry-FormStyle .FormButton {
+	display: inline-block;
+	height: 21px;
+	line-height: 21px;
+	background:url(../../../images/common/Grid/5/TableButtonBackground.jpg) repeat-x;
+	border: 1px solid #c81d03;
+	cursor: pointer;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #fff;
+}
+.UTry-FormStyle .FormButton.hover{
+	background:url(../../../images/common/Grid/5/TableSelectButtonBackground.jpg) repeat-x;
+}
+
+.UTry-FormStyle .FormButtonFont {
+	
+}
+
+.UTry-FormStyle .FormTextArea {
+	height: 200px;
+	width: 98%;
+}
+
+.messageStyle {
+	color: #FF9844;
+	font-size: 12px;
+	text-align: center;
+	height: 15px;
+	width: 300;
+	overflow: hidden;
+	border: 0px solid #cccccc;
+	position: relative;
+}
+
+.BtnForm {
+	cursor: pointer;
+	display: inline-block;
+	background: #fff;
+	color: #297cb6;
+	border: 1px solid #accce2;
+	height: 22px;
+	line-height: 22px;
+	padding: 0 4px;
+	margin: 0 2px;
+}
+
+.BtnForm.hover {
+	color: #db3a02;
+	border:1px solid #db3a02;
+}
+
+.newframe{ width:98%; margin:10px auto;}
+.newframe #TreeContainer{ width:185px; float:left;  border:2px solid #ff7c01; padding:10px;}
+.newframe #mainContainer{ height: 560px; margin-left:220px; }
+
+.UTry-FormStyle .FormButtonGray 
+{
+	display: inline-block;
+	height: 21px;
+	line-height: 21px;
+	background:url(../../../images/common/Grid/5/TableButtonBackground.jpg) repeat-x;
+	border: 1px solid #c81d03;
+	cursor: default;
+	padding: 0 10px;
+	margin: 0 2px;
+	color: #55555;
+}
+
+/* ---- 下拉框样式 ----  */
+ul,li {
+	list-style: none;
+}
+
+.UTryCite {
+	width: 150px;
+	height: 22px;
+	line-height: 20px;
+	display: block;
+	color: black;
+	cursor: pointer;
+	font-style: normal;
+	border: 1px solid #dfcb99;
+	background:
+		url("../../../images/common/Grid/xjt.png")
+		no-repeat right center;
+}
+
+.UTryUl {
+	width: 150px;
+	border: 1px solid #6495ED;
+	background-color: white;
+	z-index: 20000;
+	position: absolute;
+	margin-top: -1px;
+	display: none;
+}
+
+.UTryLi {
+	height: 20px;
+	line-height: 20px;
+}
+
+.UTryA {
+	display: block;
+	height: 20px;
+	color: black;
+	text-decoration: none;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.UTryA:hover {
+	background-color: #6495ED;
+}
+/* ---- 下拉框样式 ----  */

@@ -1,0 +1,1489 @@
+body {
+	margin: 0px;
+	padding: 0px;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+div {
+	overflow: hidden;
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+}
+
+a {
+	border: 0px;
+}
+
+img {
+	border: 0px;
+}
+
+.Clear {
+	width: 0px;
+	height: 0px;
+	margin: 0px;
+	padding: 0px;
+	clear: both;
+	font-size: 0px;
+	line-height: 0px;
+}
+
+.many_bg {
+	background-image: url(../../../images/manager/2/many_bg.png);
+	background-repeat: no-repeat;
+
+}
+
+.many_bg_1 {
+	background-image: url(../../../images/manager/2/many_bg.png);
+	background-repeat: no-repeat;
+}
+
+#TopDiv {
+	height: 59px;
+	top: 0px;
+	position: absolute;
+	background-image: url(../../../images/manager/2/top_bg.jpg);
+}
+
+#LogoDiv {
+	float: left;
+	width: 289px;
+	line-height: 59px;
+	height: 59px;
+	background-position: 0px -112px;
+}
+
+#LeftDiv {
+	top: 59px;
+	bottom: 0px;
+	left: 0px;
+	width: 143px;
+	position: absolute;
+	background-color: #0375bc;
+	text-align: left;
+}
+
+#LeftWraper {
+	top: 0px;
+	bottom: 0px;
+	left: 2px;
+	width: 200px;
+	position: absolute;
+	background-color: #0375bc;
+	border: solid 1px #0b5885;
+}
+
+#LeftSubMenuDiv {
+	top: 34px;
+	bottom: 250px;
+	left: 0px;
+	width: 198px;
+	padding: 0px;
+	position: absolute;
+	overflow-y: auto;
+}
+
+#LeftTopMenuLable {
+	line-height: 34px;
+	height: 34px;
+	background-image: url(../../../images/manager/2/top_menu_lable_bg.jpg);
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+#LeftTopMenuLableLeft {
+	float: left;
+	width: 33px;
+	height: 34px;
+	background-position: 100px -57px;
+}
+
+#LeftTopMenuLableCenter {
+	float: left;
+	line-height: 34px;
+	height: 34px;
+	width: 159px;
+	font-family: 微软雅黑;
+	font-size: 13px;
+	font-weight: bold;
+	color: #03296e;
+}
+
+#LeftTopMenuLableRight {
+	float: left;
+	width: 4px;
+	height: 34px;
+	background-position: 100px -57px;
+}
+
+#LeftCalendarDiv {
+	bottom: 0px;
+	left: 0px;
+	width: 189px;
+	position: absolute;
+	height: 186px;
+	margin-bottom: 3px;
+	margin-left: 4px;
+	margin-right: 4px;
+	margin-top: 5px;
+	_background: url(../../../images/manager/2/CalendarLableBottombg.jpg)
+		0px 48px;
+	display: none;
+}
+
+#CenterDiv {
+	position: absolute;
+	left: 143px;
+	top: 59px;
+	right: 0px;
+	bottom: 0px;
+	overflow: hidden;
+}
+
+#LeftWrapInOut {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	bottom: 0px;
+	width: 12px;
+}
+
+#TabLable {
+	height: 0px;
+	line-height: 33px;
+	background-image: url(../../../images/manager/2/Tab_bg.jpg);
+}
+
+.TabLableLeft {
+	margin-top: 7px;
+	float: left;
+	height: 26px;
+	width: 5px;
+	background-image: url(../../../images/manager/2/Tab_Lable_Leftbg.png);
+}
+
+.TabLableCenter {
+	float: left;
+	line-height: 26px;
+	height: 26px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	background-image: url(../../../images/manager/2/Tab_Lable_bg.jpg);
+	margin-top: 7px;
+}
+
+.TabLableCenterClose {
+	margin-top: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	display: inline;
+	background-position: -271px -86px;
+}
+
+.TabLableRight {
+	margin-top: 7px;
+	float: left;
+	height: 26px;
+	width: 3px;
+	background-image: url(../../../images/manager/2/Tab_Lable_Rightbg.png);
+}
+
+.SelectedTabLableLeft {
+	margin-top: 7px;
+	float: left;
+	height: 26px;
+	width: 5px;
+	background-image:
+		url(../../../images/manager/2/Selected_Tab_Lable_Leftbg.png);
+}
+
+.SelectedTabLableCenter {
+	float: left;
+	line-height: 26px;
+	height: 26px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	background-image:
+		url(../../../images/manager/2/Selected_Tab_Lable_bg.jpg);
+	margin-top: 7px;
+}
+
+.SelectedTabLableCenterClose {
+	margin-top: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	float: left;
+	width: 12px;
+	height: 12px;
+	cursor: pointer;
+	display: inline;
+	background-position: -271px -86px;
+}
+
+.SelectedTabLableRight {
+	margin-top: 7px;
+	float: left;
+	height: 26px;
+	width: 3px;
+	background-image:
+		url(../../../images/manager/2/Selected_Tab_Lable_Rightbg.png);
+}
+
+.TopMenuLable {
+	width: 71px;
+	height: 58px;
+	float: left;
+	display: inline;
+	text-align: center;
+	margin-left: 7px;
+	margin-right: 7px;
+	cursor: pointer;
+}
+
+.SelectedTopMenuLable {
+	width: 71px;
+	height: 58px;
+	float: left;
+	text-align: center;
+	margin-left: 7px;
+	margin-right: 7px;
+	background: url(../../../images/manager/2/Selected_TopMenu_bg.jpg) 6px
+		no-repeat transparent;
+}
+
+.TopMenuIcoBottom {
+	height: 37px;
+	background-position: 1000px 26px;
+}
+
+.TopMenuIcoBottom img {
+	margin-top: 4px;
+}
+
+.TopMenuFont {
+	line-height: 19px;
+	height: 22px;
+	font-family: 微软雅黑;
+	font-size: 11px;
+	font-weight: bold;
+	color: #fff;
+}
+
+.TopSmallIco {
+	float: right;
+	margin-right: 5px;
+	margin-top: 22px;
+	cursor: pointer;
+	width: 16px;
+	height: 16px;
+}
+
+.CommonIcoLable {
+	height: 61px;
+	width: 80px;
+	float: left;
+}
+
+.CommonLableFont {
+	text-align: center;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #ffffff;
+	cursor: pointer;
+	height: 14px;
+	line-height: 14px;
+	margin-right: -25px;
+}
+
+#CalendarLableTop {
+	width: 187px;
+	height: 27px;
+	border-left: solid 1px #89c0e1;
+	border-top: solid 1px #89c0e1;
+	border-right: solid 1px #89c0e1;
+	background: url(../../../images/manager/2/CalendarLableTopbg.jpg);
+	font-family: 宋体;
+	font-size: 12px;
+	color: #fefffe;
+}
+
+#CalendarLableCenter {
+	width: 187px;
+	height: 19px;
+	border-left: solid 1px #ceeaf9;
+	border-top: solid 1px #fcfdfb;
+	border-right: solid 1px #ceeaf9;
+	background-image:
+		url(../../../images/manager/2/CalendarLableCenterbg.jpg);
+}
+
+#CalendarLableCenter img {
+	margin-left: 7px;
+	margin-top: 4px;
+	display: inline;
+}
+
+#CalendarLableBottom {
+	background-image:
+		url(../../../images/manager/2/CalendarLableBottombg.jpg);
+}
+
+#CalendarLableBottom ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+.NoteDiv {
+	bottom: 0px;
+	left: 205px;
+	width: 279px;
+	background-color: Gray;
+	position: absolute;
+	height: 199px;
+	z-index: 999;
+}
+
+.NoteLeft {
+	float: left;
+	width: 4px;
+	height: 199px;
+	background-position: 0px -201px;
+}
+
+.NoteCenter {
+	float: left;
+	width: 271px;
+	height: 199px;
+	background-image: url(../../../images/manager/2/NoteCenter_bg.jpg);
+}
+
+.NoteRight {
+	float: left;
+	width: 4px;
+	height: 199px;
+	background-position: -12px -201px;
+}
+
+.NoteCenterTop {
+	height: 25px;
+	margin-top: 1px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.NoteCenterCenter {
+	height: 148px;
+	margin-top: 1px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #393939;
+}
+
+.NoteBottomPage {
+	width: 14px;
+	height: 15px;
+	line-height: 15px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	float: left;
+	display: inline;
+	cursor: pointer;
+}
+
+.NoteBottomSelectedPage {
+	width: 14px;
+	height: 15px;
+	line-height: 15px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	background-image:
+		url(../../../images/manager/2/NoteCenterBottomSelectedPage.png);
+	float: left;
+	display: inline;
+	cursor: pointer;
+}
+
+.NoteCenterCenter2 {
+	height: 32px;
+	line-height: 32px;
+	text-align: center;
+	margin-top: 1px;
+	font-family: 宋体;
+	font-size: 13px;
+	color: #ff6000;
+	border-bottom: dashed 1px #aebda3;
+}
+
+.NoteCenterBottom2 {
+	height: 100px;
+	text-align: center;
+	margin-top: 11px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #4a4a4a;
+}
+
+.NoteCenterBottomButtonBack {
+	height: 19px;
+	line-height: 19px;
+	text-align: center;
+	width: 40px;
+	margin-left: 222px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #214b01;
+	display: block;
+	background-position: -61px -212px;
+}
+
+.NoteCenterBottomButtonBack:hover {
+	color: Red;
+}
+
+.CalendarLableBottomUlHaveDay {
+	display: block;
+	text-align: center;
+	float: left;
+	width: 26px;
+	line-height: 22px;
+	height: 22px;
+	border-bottom: solid 1px #92bdd6;
+	border-right: solid 1px #92bdd6;
+	cursor: pointer;
+}
+
+.CalendarLableBottomUlHaveDayHaveNote {
+	display: block;
+	text-align: center;
+	float: left;
+	width: 26px;
+	line-height: 22px;
+	height: 22px;
+	border-bottom: solid 1px #92bdd6;
+	border-right: solid 1px #92bdd6;
+	cursor: pointer;
+	background-image: url(../../../images/manager/2/HaveNote.png);
+}
+
+.CalendarLableBottomUlHaveDayToday {
+	display: block;
+	text-align: center;
+	float: left;
+	width: 26px;
+	line-height: 22px;
+	height: 22px;
+	border-bottom: solid 1px #92bdd6;
+	border-right: solid 1px #92bdd6;
+	cursor: pointer;
+	background-image: url(../../../images/manager/2/Today.png);
+}
+
+.CalendarLableBottomUlHaveDayTodayHaveNote {
+	display: block;
+	text-align: center;
+	float: left;
+	width: 26px;
+	line-height: 22px;
+	height: 22px;
+	border-bottom: solid 1px #92bdd6;
+	border-right: solid 1px #92bdd6;
+	cursor: pointer;
+	background-image: url(../../../images/manager/2/TodayHaveNote.png);
+}
+
+.CalendarLableBottomUlNoDay {
+	display: block;
+	text-align: center;
+	float: left;
+	width: 26px;
+	line-height: 22px;
+	height: 22px;
+	border-bottom: solid 1px #92bdd6;
+	border-right: solid 1px #92bdd6;
+}
+
+.CalendarLableBottomUlSelected {
+	background-image: url(../../../images/manager/2/DateSelected.png);
+}
+
+.CalendarLableBottomUlSelectedHaveNote {
+	background-image:
+		url(../../../images/manager/2/SelectedDateHaveNote.png);
+}
+
+#Note1 a:hover {
+	color: #F60;
+	text-decoration: none;
+}
+
+#Note1 a {
+	font-family: 宋体;
+	font-size: 12px;
+	color: #393939;
+	text-decoration: none;
+}
+
+#Note2 a:hover {
+	color: #F60;
+	text-decoration: none;
+}
+
+#Note2 a {
+	font-family: 宋体;
+	font-size: 12px;
+	color: #393939;
+	text-decoration: none;
+}
+
+.OneTabLable {
+	float: left;
+	display: inline;
+	cursor: pointer;
+}
+
+.LeftSubMenuLable {
+	margin-top: 10px;
+	height: 24px;
+	color: #ffffff;
+	line-height: 22px;
+	cursor: pointer;
+}
+
+.LeftSubMenuLableOver {
+	background-color: #2981bb;
+	color: #fff000;
+}
+
+.LeftSubMenuLableIco {
+	margin-left: 15px;
+	margin-top: 3px;
+	float: left;
+	height: 16px;
+	width: 16px;
+	display: inline;
+}
+
+.LeftSubMenuLableFont {
+	float: left;
+	font-family: 宋体;
+	font-size: 12px;
+	margin-left: 5px;
+	display: inline;
+}
+
+#TabLableDown {
+	display: none;
+	cursor: pointer;
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	height: 13px;
+	width: 13px;
+	z-index: 999;
+	background-position: -37px -1px;
+}
+
+.CommonLableBottom {
+	margin-top: 11px;
+	margin-left: 35px;
+	height: 35px;
+	background-position: -81px 25px;
+	cursor: pointer;
+	text: align;
+}
+
+.CommonLableBottom img {
+	margin-left: 6px;
+	display: block;
+}
+
+#TopInfoDiv {
+	height: 28px;
+}
+
+#TopInfoExitFont {
+	float: right;
+	margin-right: 10px;
+	margin-top: 9px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #d5ffac;
+}
+
+#TopInfoInfomationFont {
+	float: right;
+	padding-right: 26px;
+	line-height: 59px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #fff;
+}
+
+#TopInfoSmallLogo {
+	float: right;
+	margin-right: 4px;
+	margin-top: 23px;
+	height: 16px;
+	width: 16px;
+}
+
+#TopInfoOnline {
+	float: right;
+	margin-right: 4px;
+	margin-top: 7px;
+	height: 13px;
+	width: 100px;
+}
+
+#TopMenuLeftGoDiv {
+	height: 56px;
+	line-height: 56px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 8px;
+	display: none;
+	cursor: pointer;
+	background-position: 0px 0px;
+}
+
+#TopMenuRightGoDiv {
+	height: 56px;
+	line-height: 56px;
+	position: absolute;
+	right: 8px;
+	top: 0px;
+	width: 8px;
+	cursor: pointer;
+	background-position: -9px 0px;
+}
+
+#TopMenuDiv {
+	height: 59px;
+	float: left;
+}
+
+#CalendarLableTopDiv1 {
+	margin-left: 10px;
+	margin-top: 9px;
+	float: left;
+	display: inline;
+	cursor: pointer;
+}
+
+#CalendarLableTopDiv1 img {
+	display: block;
+}
+
+#CalendarLableTopDiv2 {
+	margin-left: 36px;
+	margin-top: 7px;
+	float: left;
+	display: inline;
+}
+
+#CalendarLableTopDiv3 {
+	margin-top: 12px;
+	margin-left: 5px;
+	float: left;
+	display: inline;
+	cursor: pointer;
+}
+
+#CalendarLableTopDiv3 img {
+	display: block;
+}
+
+#CalendarLableTopDiv4 {
+	margin-top: 7px;
+	margin-left: 11px;
+	float: left;
+	display: inline;
+}
+
+#CalendarLableTopDiv5 {
+	margin-top: 12px;
+	margin-left: 5px;
+	float: left;
+	display: inline;
+	cursor: pointer;
+}
+
+#CalendarLableTopDiv5 img {
+	display: block;
+}
+
+#CalendarLableTopDiv6 {
+	margin-top: 9px;
+	margin-left: 29px;
+	float: left;
+	display: inline;
+	cursor: pointer;
+}
+
+#CalendarLableTopDiv6 img {
+	display: block;
+}
+
+.TabLableCenterFont {
+	float: left;
+	margin-left: 2px;
+	display: inline;
+}
+
+.SelectedTabLableCenterFont {
+	float: left;
+	margin-left: 2px;
+	display: inline;
+}
+
+#NoteCenterTopDiv1 {
+	margin-left: 8px;
+	margin-top: 4px;
+	float: left;
+	display: inline;
+	width: 17px;
+	height: 17px;
+	background-position: -143px -16px;
+}
+
+#NoteCenterTopDiv2 {
+	margin-left: 5px;
+	margin-top: 7px;
+	float: left;
+	display: inline;
+}
+
+#NoteCenterTopDiv3 {
+	margin-left: 115px;
+	margin-top: 6px;
+	float: left;
+	display: inline;
+}
+
+.NoteCenterCenterDiv {
+	margin-left: 27px;
+	margin-top: 13px;
+	width: 217px;
+	height: 14px;
+	line-height: 14px;
+}
+
+#Note2 {
+	display: none;
+}
+
+#CalendarNoteDiv {
+	width: 0px;
+}
+
+#TabDropDown {
+	top: 6px;
+	right: 4px;
+	width: 137px;
+	position: absolute;
+	z-index: 666;
+	display: none;
+	background-color: #e6f3f9;
+	border: solid 1px #afcedd;
+	overflow-y: auto;
+}
+
+.TabDropDownDiv {
+	height: 22px;
+	line-height: 22px;
+	border-bottom: dashed 1px #0066ac;
+	margin-top: 4px;
+}
+
+.TabDropDownDivIco {
+	float: left;
+	margin-left: 3px;
+	margin-top: 3px;
+	display: inline;
+}
+
+.TabDropDownDivFont {
+	height: 22px;
+	line-height: 22px;
+	float: left;
+	color: #060606;
+	cursor: pointer;
+	display: inline;
+	text-indent: 4px;
+}
+
+.TabLableCenterIco {
+	margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+	display: inline;
+	height: 16px;
+	width: 16px;
+}
+
+.SelectedTabLableCenterIco {
+	margin-left: 5px;
+	margin-top: 5px;
+	float: left;
+	display: inline;
+	height: 16px;
+	width: 16px;
+}
+
+#LeftCommonAndCalendar {
+	position: absolute;
+	width: 143px;
+	height: 245px;
+	bottom: 0;
+}
+
+#LeftCommonAndCalendarTop {
+	width: 196px;
+	margin: 0 auto;
+	line-height: 27px;
+	height: 27px;
+}
+
+#LeftCommonAndCalendarTopCenter {
+	float: left;
+	line-height: 27px;
+	height: 27px;
+	width: 190px;
+	background: url(../../../images/manager/2/common_lable_bg.jpg) repeat-x;
+}
+
+#LeftCommonAndCalendarTopLeft {
+	float: left;
+	width: 3px;
+	height: 27px;
+	background-position: -53px -57px;
+}
+
+#LeftCommonAndCalendarTopRight {
+	float: left;
+	width: 3px;
+	height: 27px;
+	background-position: -61px -57px;
+}
+
+#LeftCommonAndCalendarTopCenterCommon {
+	float: left;
+	line-height: 27px;
+	height: 27px;
+	width: 83px;
+	font-family: 微软雅黑;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 10px;
+	display: inline;
+}
+
+.LeftCommonAndCalendarTopCenterCommonOrCalendarSelected {
+	background:
+		url(../../../images/manager/2/SelectedLeftCommonAndCalendarTopCenter.png)
+		0px 4px no-repeat transparent;
+	color: #ffffff;
+}
+
+#LeftCommonAndCalendarTopCenterCalendar {
+	float: left;
+	line-height: 27px;
+	height: 27px;
+	width: 83px;
+	font-family: 微软雅黑;
+	font-size: 13px;
+	font-weight: bold;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 10px;
+	display: inline;
+}
+
+#CommonIcoDiv {
+	width: 100%;
+	height: 183px;
+}
+
+#CommonIcoDiv1 {
+	width: 100%;
+	height: 163px;
+	padding: 10px 0;
+}
+
+#MessageBoxDiv {
+	bottom: 0px;
+	right: 0px;
+	width: 249px;
+	background-color: gray;
+	position: absolute;
+	height: 178px;
+	z-index: 999;
+	display: none;
+}
+
+.MessageBoxLeft {
+	width: 4px;
+	float: left;
+	height: 178px;
+	display: inline;
+	background-position: -28px -201px;
+}
+
+.MessageBoxCenter {
+	width: 241px;
+	float: left;
+	height: 178px;
+	background-image: url(../../../images/manager/2/MessageBoxCenter_bg.jpg);
+	display: inline;
+}
+
+.MessageBoxRight {
+	width: 4px;
+	float: left;
+	height: 178px;
+	display: inline;
+	background-position: -39px -201px;
+}
+
+.MessageBoxCenterTop {
+	height: 26px;
+	margin-top: 1px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #ffffff;
+}
+
+.MessageBoxCenterTopDiv1 {
+	float: left;
+	display: inline;
+	margin-left: 4px;
+	margin-top: 4px;
+	width: 17px;
+	height: 17px;
+	background-position: -165px -16px;
+}
+
+.MessageBoxCenterTopDiv2 {
+	float: left;
+	margin-top: 6px;
+	margin-left: 3px;
+	display: inline;
+}
+
+.MessageBoxCenterTopDiv3 {
+	float: left;
+	margin-left: 149px;
+	margin-top: 6px;
+	display: inline;
+}
+
+.MessageBoxCenter2 {
+	display: none;
+}
+
+.MessageBoxCenterCenter {
+	font-family: 宋体;
+	font-size: 12px;
+	color: #363636;
+	height: 120px;
+}
+
+.MessageBoxCenterCenterDiv {
+	margin-left: 27px;
+	margin-top: 13px;
+	width: 241px;
+	height: 14px;
+	line-height: 14px;
+}
+
+.MessageBoxCloseBtn {
+	float: left;
+	height: 20px;
+	cursor: pointer;
+	display: inline;
+}
+
+.MessageBoxCloseBtnLeft {
+	width: 3px;
+	height: 20px;
+	float: left;
+	display: inline;
+	background-position: -62px -239px;
+}
+
+.MessageBoxCloseBtnCenter {
+	height: 20px;
+	line-height: 20px;
+	float: left;
+	background-image:
+		url(../../../images/manager/2/MessageBoxBtnCenter_bg.jpg);
+	font-family: 宋体;
+	font-size: 12px;
+	color: #285502;
+	text-align: center;
+	display: inline;
+}
+
+.MessageBoxCloseBtnRight {
+	width: 3px;
+	height: 20px;
+	float: left;
+	display: inline;
+	background-position: -73px -239px;
+}
+
+.MessageBoxCenterDiv {
+	margin-left: 27px;
+	margin-top: 8px;
+	width: 217px;
+	height: 14px;
+	line-height: 14px;
+}
+
+.MessageBoxCenterCenter2 {
+	text-align: center;
+	margin-top: 15px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #353535;
+	height: 100px;
+}
+
+#MessageBoxCenter1 a:hover {
+	color: #F60;
+	text-decoration: none;
+}
+
+#MessageBoxCenter1 a {
+	font-family: 宋体;
+	font-size: 12px;
+	color: #393939;
+	text-decoration: none;
+}
+
+#MessageBoxCenter2 a:hover {
+	color: #F60;
+	text-decoration: none;
+}
+
+#MessageBoxCenter2 a {
+	font-family: 宋体;
+	font-size: 12px;
+	color: #393939;
+	text-decoration: none;
+}
+
+#CalendarMonthDropDown {
+	display: none;
+	background-color: #e6f3f9;
+	border: solid 1px #0066ac;
+}
+
+.CalendarMonthDropDown {
+	top: 15px;
+	left: 120px;
+	width: 40px;
+	background-color: Gray;
+	position: absolute;
+	z-index: 999;
+}
+
+.CalendarMonthDropDownFont {
+	text-align: center;
+	color: #000000;
+	cursor: pointer;
+}
+
+#CalendarYearDropDown {
+	display: none;
+	background-color: #e6f3f9;
+	border: solid 1px #0066ac;
+}
+
+.CalendarYearDropDown {
+	top: 15px;
+	left: 70px;
+	width: 50px;
+	background-color: Gray;
+	position: absolute;
+	z-index: 999;
+}
+
+.CalendarYearDropDownFont {
+	text-align: center;
+	color: #000000;
+	cursor: pointer;
+}
+
+#TabContainer {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	right: 0px;
+	height: 33px;
+	overflow: hidden;
+}
+
+#TabContainerP {
+	height: 33px;
+	position: relative;
+}
+
+#TabWrapper {
+	position: absolute;
+	left: 8px;
+	top: 0px;
+	right: 32px;
+	height: 33px;
+	overflow: hidden;
+}
+
+.MessageBoxBottomPage {
+	width: 14px;
+	height: 15px;
+	line-height: 15px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #000000;
+	text-align: center;
+	float: left;
+	display: inline;
+	cursor: pointer;
+}
+
+.MessageBoxBottomSelectedPage {
+	width: 14px;
+	height: 15px;
+	line-height: 15px;
+	font-family: 宋体;
+	font-size: 12px;
+	color: #ffffff;
+	text-align: center;
+	background-image:
+		url(../../../images/manager/2/NoteCenterBottomSelectedPage.png);
+	float: left;
+	display: inline;
+	cursor: pointer;
+}
+
+#MessageBoxBottomPageDiv {
+	width: 150px;
+	float: left;
+	height: 20px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.CommonIcoDiv {
+	width: 30px;
+	height: 28px;
+	margin-left: 5px;
+}
+
+#NoteBottomPageDiv {
+	height: 15px;
+	margin-left: 20px;
+}
+
+#LeftWrapInOutImg {
+	width: 9px;
+	height: 23px;
+	cursor: pointer;
+}
+
+.LeftWrapInOutImgOut {
+	background-position: -101px -59px;
+}
+
+.LeftWrapInOutImgIn {
+	background-position: -83px -58px;
+}
+
+#TopSmallIco1 {
+	background-position: -30px -459px;
+}
+
+#TopSmallIco2 {
+	background-position: -204px 0px;
+}
+
+#TopSmallIco3 {
+	background-position: -186px 0px;
+}
+
+#TopSmallIco4 {
+	background-position: -168px 0px;
+}
+
+#TopSmallIco5 {
+	background-position: -148px 1px;
+}
+
+#TopSmallIco6 {
+	background-position: -223px -35px;
+}
+
+#TopSmallIco7 {
+	background-position: -205px -17px;
+}
+
+.CenterBackGround {
+	background: url(../../../images/manager/2/welcome2.jpg) no-repeat;
+}
+
+.NoteAndMessageBottomIco {
+	margin-right: 5px;
+	background-image: url(../../../images/manager/2/NoteCenterBottomIco.png);
+	float: left;
+	width: 4px;
+	height: 7px;
+	margin-top: 4px;
+}
+
+.NoteCenterTopDiv3Logo {
+	background-image:
+		url(../../../images/manager/2/NoteCenterTopIcoBack.png);
+	width: 14px;
+	height: 14px;
+}
+
+#SimplifyTopDiv {
+	position: absolute;
+	top: 0px;
+	height: 37px;
+	background-image: url(../../../images/manager/2/SimplifyTopDiv_bg.jpg);
+}
+
+#SimplifyTopLogo {
+	float: left;
+	width: 264px;
+	height: 37px;
+	background-position: -37px -413px;
+}
+
+#SimplifyTopLeftGoDiv {
+	height: 37px;
+	line-height: 37px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 8px;
+	cursor: pointer;
+	background-position: 0px -8px;
+	display: none;
+}
+
+#SimplifyTopMenuDiv {
+	height: 37px;
+	margin-left: 15px;
+}
+
+.SimplifyTopMenuLable {
+	height: 23px;
+	margin-top: 8px;
+	float: left;
+	width: 81px;
+	display: inline;
+	cursor: pointer;
+}
+
+.SimplifyTopMenuFont {
+	color: #ffffff;
+	font-size: 13px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.SimplifyTopMenuSeperateLine {
+	height: 17px;
+	width: 2px;
+	float: left;
+	margin-top: 12px;
+	background-position: -246px -386px;
+}
+
+#SimplifyTopIcoSeperateLine {
+	position: absolute;
+	height: 17px;
+	width: 2px;
+	top: 12px;
+	right: 27px;
+	background-position: -246px -386px;
+}
+
+#TopIcoSeperateLine {
+	float: right;
+	height: 0px;
+	width: 2px;
+	margin-top: 6px;
+	margin-right: 4px;
+	background-position: -246px -386px;
+}
+
+#SimplifyTopRightGoDiv {
+	height: 37px;
+	line-height: 37px;
+	position: absolute;
+	top: 0px;
+	right: 60px;
+	width: 8px;
+	cursor: pointer;
+	background-position: -9px -8px;
+	display: none;
+}
+
+#SimplifyTopDropDownDiv {
+	height: 37px;
+	line-height: 37px;
+	position: absolute;
+	top: 0px;
+	right: 35px;
+	width: 14px;
+	cursor: pointer;
+	background-position: -284px -372px;
+}
+
+#SimplifyTopChangeDiv {
+	height: 37px;
+	line-height: 37px;
+	position: absolute;
+	top: 0px;
+	right: 12px;
+	width: 11px;
+	cursor: pointer;
+	background-position: -265px -372px;
+}
+
+.SelectSimplifyTopMenuLable {
+	width: 81px;
+	height: 23px;
+	background: url(../../../images/manager/2/SelectSimplifyTopMenu.jpg)
+		no-repeat transparent;
+}
+
+#SimplifyTopMenuContainer {
+	position: relative;
+	height: 37px;
+	float: left;
+}
+
+#TopSmallChange {
+	height: 37px;
+	line-height: 37px;
+	width: 11px;
+	cursor: pointer;
+	background-position: -253px -378px;
+	float: right;
+	margin-right: 12px;
+}
+
+#SimplifyTopDropDown {
+	top: 16px;
+	right: 26px;
+	position: absolute;
+	z-index: 666;
+	background-color: #e6f3f9;
+	border: solid 1px #afcedd;
+	display: none;
+}
+
+.SimplifyTopSmallIco {
+	margin-right: 6px;
+	margin-top: 2px;
+	width: 12px;
+	height: 12px;
+}
+
+#SimplifyTopIco1 {
+	background-position: -205px -17px;
+}
+
+#SimplifyTopIco2 {
+	background-position: -223px -35px;
+}
+
+#SimplifyTopIco3 {
+	background-position: -148px 1px;
+}
+
+#SimplifyTopIco4 {
+	background-position: -168px 0px;
+}
+
+#SimplifyTopIco5 {
+	background-position: -186px 0px;
+}
+
+#SimplifyTopIco6 {
+	background-position: -204px 0px;
+}
+
+#SimplifyTopIco7 {
+	background-position: -222px 0px;
+}
+
+.SimplifyDropDownDiv {
+	height: 22px;
+	line-height: 22px;
+	border-bottom: dashed 1px #0066ac;
+	margin-top: 4px;
+	width: 120px;
+}
+
+.SimplifyDropDownDivIco {
+	float: left;
+	margin-left: 3px;
+	margin-top: 3px;
+	display: inline;
+}
+
+.SimplifyDropDownDivFont {
+	height: 22px;
+	line-height: 22px;
+	float: left;
+	color: #060606;
+	cursor: pointer;
+	display: inline;
+	text-indent: 4px;
+}
+
+.nav-item {
+	text-align: center;
+	background: #fff;
+	height: 80px;
+}
+.nav-item-select {
+	text-align: center;
+	background: #fff;
+	height: 80px;
+}
+
+
+.nav-item img {
+	border: 0;
+}
+.nav-item-select img {
+	border: 0;
+	background-color: rgb(237, 220, 229);
+}

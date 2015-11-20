@@ -1,0 +1,326 @@
+/*-----------样式修改记录：by hequ 2009-10-26（平台组件基础样式）---------------------*/
+
+/*-----------页面基础样式-----------*/
+BODY {font-family:Arial,"宋体";font-size:12px; margin: 0;padding:0; background-color:#FFFFFF; overflow:auto;SCROLLBAR-FACE-COLOR:#E4EFF1;SCROLLBAR-HIGHLIGHT-COLOR:#8CB2E3;SCROLLBAR-SHADOW-COLOR:#8CB2E3;SCROLLBAR-3DLIGHT-COLOR:#F8F9FD;SCROLLBAR-ARROW-COLOR:#8CB2E3;SCROLLBAR-TRACK-COLOR:#F8F9FD;SCROLLBAR-DARKSHADOW-COLOR:#F8F9FD;}
+tr,td {font-family:Arial,"宋体";FONT-SIZE: 12px}
+textarea {font-size:12px; background-color: #FFFFFF; color:#000000;  border:1 solid #4682B4;}
+select {font-size:12px;background-color: #FFFFFF;color:#000000;}
+input{font-size:12px;color:#000000; padding-top: 2px;padding-left: 3px;height: 20px;}
+form {display: inline;}
+.G-Table-NoData{ color:#FF0000}
+
+/*-----------页面不同区域位置的定义-----------*/
+.area_tab{ width:100%; text-align:center; padding-top:5px;}
+.td_font{ width:100px; text-align:right}
+.td_button{ width:10%; text-align:center}
+.area_button{ width:100%; text-align:center; height:40px; padding-top:10px;}
+
+
+
+/*-----------AIButton样式-----------*/
+/*正常按钮*/
+.btn-1word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-2word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-3word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-4word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-5word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-6word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-7word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-8word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-9word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-10word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-11word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-12word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-13word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-14word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-15word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-16word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-17word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-18word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-19word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-20word {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+
+/*鼠标滑动*/
+.btn-1word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-2word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-3word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-4word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-5word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-6word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-7word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-8word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-9word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-10word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-11word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-12word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-13word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-14word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-15word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-16word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-17word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-18word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-19word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-20word-hover {border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+
+/*灰色按钮*/
+.btn-1word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-2word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-3word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-4word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-5word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-6word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-7word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-8word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-9word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-10word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-11word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-12word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-13word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-14word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-15word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-16word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-17word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-18word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-19word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+.btn-20word-gray{border: 1 solid #4682B4;height:20px;font-size: 12px;color:#2F5188;background:url(../images/appframes/button/button_bg.gif);}
+
+/*-----------CrossGrid样式-----------*/
+/*表格固定行头抬头部分样式*/
+.CrossGridRowHead_Name{BACKGROUND-COLOR: #ffdddd;}
+/*表格固定行头数值部分样式*/
+.CrossGridRowHead_Value{BACKGROUND-COLOR: #efe1ff;}
+/*表格固定列头的样式*/
+.CrossGridColHead{BACKGROUND-COLOR: #ecffec;}
+/* 数据区域样式*/
+.CrossGrid_Data{BACKGROUND-COLOR: #FFFFFF;}
+/* 选中行/列样式*/
+.CrossGrid_Row{BACKGROUND-COLOR: #c4ccff;}
+
+/*-----------DBGrid 样式-----------*/
+.td_hover{background-color:#E5EFF8;color:#013299;}
+.title_hover{height:20px;color:#5371BA;font-weight:bold;text-align:center;border:#8CB2E3 solid;border-width:0 1 1 0;background-color:#E4EFF1;display:block;}
+/*最外层区域样式*/
+.G-TableOuterDiv{border: 1px solid #8CB2E3;background:#F7F8FA;}
+.G-TableHead{height:20px;color:#5371BA;font-weight:bold;TABLE-LAYOUT: fixed;border-COLLAPSE: collapse;background-color:#E4EFF1;display:block;}
+/*表格数据区域样式*/
+.G-TableBody{border:#8CB2E3;background-color:#E1EDFA;}
+/*表格脚区域样式*/
+.G-TableFoot{background-color:#E4EFF1;border:#8CB2E3 solid;border-width:0 1 1 1;height:27px;}
+/*表格头区域样式*/
+.GH-Head{height:20px;color:#5371BA;text-align:center;border:#8CB2E3 solid;border-width:0 1 0 0;background:#F8F9FD;}
+/*表格头TR样式*/
+.GH-TR{} 
+/*表格头TD样式*/
+.GH-TD{height:20px;color:#5371BA;font-weight:bold;text-align:center;border:#8CB2E3 solid;border-width:0 1 1 0;background-color:#E4EFF1;display:block;}
+/*合计行样式*/
+.GD-Total-TR{border:#8CB2E3 solid;border-width:0 1 1 0;color:#013299;}
+/*合计行单元格样式*/
+.GD-Total-TD{border:#8CB2E3 solid;border-width:0 1 1 0;color:#013299;}  
+/*表格数据行多选单元格样式*/
+.GD-S{width:24px;border:#8CB2E3 solid;border-width:0 1 1 0;display:block;}
+/*表格头多选单元格样式*/
+.GH-S{height:20px;width:24px;color:#000000;border:#8CB2E3 solid;border-width:0 1 1 0;TABLE-LAYOUT: fixed;border-COLLAPSE: collapse;background-color:#E4EFF1;display:block;}
+/*表格头的多选Checkbox样式*/
+.GH-S-C{border:0;width:24px;}
+/*表格数据行的多选Checkbox样式*/
+.GD-S-C{border:0;}
+/*表格头的序号*/
+.GH-Seq{height:20px;width:30px;color:#5371BA;text-align:center;font-weight:bold;border:#8CB2E3 solid;border-width:0 1 1 0;TABLE-LAYOUT: fixed;border-COLLAPSE: collapse;background-color:#E4EFF1;display:block;}
+/*表格数据的序号*/
+.GD-Seq{text-align:center;border:#8CB2E3 solid;border-width:0 1 1 0;display:block;}
+/*奇数行样式*/
+.GD-One{background-color:#F3F5F8;border:#8CB2E3 solid;border-width:1 1 1 0;color:#013299;}
+/*偶数行样式*/
+.GD-Two{background-color:#FFFFFF;border:#8CB2E3 solid;border-width:1 1 1 0;color:#013299;}
+/*表格数据区域TD样式*/
+.GD-TD{background-color: ;border:#8CB2E3 solid;border-width:0 1 1 0;word-break:break-all;}
+/*选中行样式*/
+.GD-SelectRow{}
+/*当前行样式*/
+.GD-CurrentRow{background-color:#E6FFFF;color:#013299;}
+/*当前单元格样式*/
+.GD-CurrentCell{background-color:#FFF475;border:#8CB2E3 solid;border-width:0 1 1 0;word-break:break-all;color:#013299;}
+/*DBGrid滚动条样式*/
+.G-ScrollBar{overflow:auto;SCROLLBAR-FACE-COLOR:#E4EFF1;SCROLLBAR-HIGHLIGHT-COLOR:#8CB2E3;SCROLLBAR-SHADOW-COLOR:#8CB2E3;SCROLLBAR-3DLIGHT-COLOR:#F8F9FD;SCROLLBAR-ARROW-COLOR:#8CB2E3;SCROLLBAR-TRACK-COLOR:#F8F9FD;SCROLLBAR-DARKSHADOW-COLOR:#F8F9FD;}
+/*抬头升序排序样式*/
+.GH-SORT-ASC{float:right;width:13px;height:14px;background:url(../images/appframes/grid/sort_u.gif);background-repeat:no-repeat;}
+/*抬头降序排序样式*/
+.GH-SORT-DESC{float:right;width:13px;height:14px;background:url(../images/appframes/grid/sort_d.gif);background-repeat:no-repeat;}
+.GH-SORT{float:right;width:13px;height:14px;background-repeat:no-repeat;}
+.TABLE_TREE_BUTTON{width:16;height:16;font-size: 12px;border-RIGHT: #2C59AA 1px solid; PADDING-RIGHT: 2px; border-TOP: #2C59AA 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5); border-LEFT: #2C59AA 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; border-BOTTOM: #2C59AA 1px solid}
+input.table-page{border:1px solid #8A8A8A;background:url(../images/appframes/input.gif);width:2em;height:1.2em;text-align:center;font-size:9pt;position:relative;top:-1px;padding-top:0;}
+#page-first{width:16px;background:url(../images/appframes/grid/button_begin.gif) no-repeat left 1px;}
+#page-prev{width:16px;background:url(../images/appframes/grid/button_prv.gif) no-repeat left 1px;}
+#page-next{width:16px;background:url(../images/appframes/grid/button_next.gif) no-repeat left 1px;}
+#page-last{width:16px;background:url(../images/appframes/grid/button_end.gif) no-repeat left 1px;}
+#page-go{width:15px;background:url(../images/appframes/grid/button_go.gif) no-repeat left top;}
+
+
+/*-----------DBForm.css-----------/
+.DBForm_tdDis{height:20;border:1 solid #B1BAC2;background-color:#E7F4FE;padding:5 0 0 5;}
+.DBForm_tdTit{padding-left:30;}
+
+
+/*-----------DBDate.css-----------*/
+/* 控制单元格显示格式 */
+.DBDate-CalHead {cursor:default; text-align:center; font:bold 12px arial; color:white;}
+.DBDate-CalCell {cursor:hand; text-align:center;}
+.DBDate-CellAnchor {text-decoration:none; font:12px arial;}
+/* 控制星期显示格式*/
+.DBDate-WeekHead {cursor:default; font:12px arial; text-align:center; color:#ddddea;}
+.DBDate-WeekCol {cursor:default; font:bold 12px arial; text-align:center; color:gray; background-color:#ddddea;}
+/* 月份导航 */
+.DBDate-MonthNav {vertical-align:middle; height:22; width:18; font:12px fixedsys; color:black;}
+/* 日历 */
+.DBDate-CalHead {cursor:default; text-align:center; font:bold 12px arial; color:white;}
+.DBDate-CalCell {cursor:hand; text-align:center;}
+.DBDate-CellAnchor {text-decoration:none; font:12px arial;}
+/* 控制星期显示格式*/
+.DBDate-WeekHead {cursor:default; font:12px arial; text-align:center; color:#ddddea;}
+.DBDate-WeekCol {cursor:default; font:bold 12px arial; text-align:center; color:gray; background-color:#ddddea;}
+/* 月份导航 */
+.DBDate-MonthNav {vertical-align:middle; height:22; width:18; font:12px fixedsys; color:black;}
+/* 日历 */
+.DBDate-CalTop {text-align:center;}
+.DBDate-CalMiddle {}
+.DBDate-CalBottom {text-align:center;}
+/* 标题 */
+.DBDate-CalTitle {vertical-align:middle; font:12px arial; color:black;}
+/* 今天显示 */
+.DBDate-Today {text-decoration:none; font:bold 12px sans-serif; color:black;}
+A.DBDate-Today:hover {color:yellow}
+A.DBDate-Today:active {color:red}
+/* 标题 */
+.DBDate-CalTitle {vertical-align:middle; font:12px arial; color:black;}
+/* 今天显示 */
+.DBDate-Today {text-decoration:none; font:bold 12px sans-serif; color:black;}
+A.DBDate-Today:hover {color:yellow}
+A.DBDate-Today:active {color:red}
+
+/*-----------DBCombobox.css-----------*/
+.combo-hilite {cursor:hand;background:#EAF2FF;border:1px solid #78ACFF;color:#000000;font-size:12px;}
+.combo-item {cursor:hand;background:#FFFFFF;border:1px solid #FFFFFF;color:#000000;font-size:12px;}
+.combo-input {border: 1px solid #78ACFF !important;}
+.combo-list-width {width:133px}
+.combo-list {border:1px solid #000000;width:150px;}
+
+/*-----------PopMenu弹出菜单相关-----------*/
+.aipopmenu_backdiv{background-color: #D6E1F8; border: 1 solid #4682B4;}
+.aipopmenu_menu{padding-left:16;padding-top:2;padding-bottom:2; font-size: 12px;}
+.aipopmenu_overmenu{padding-left:16;padding-top:2;padding-bottom:2;background-color:highlight;color:highlighttext; font-size: 12px;}
+.aipopmenu_sepa{width:100%;border: 1px solid #f0f0f0}
+.aipopmenu_disablemenutext{color:#c0c0c0;}
+
+/*-----------AIDBForm相关的CSS-----------*/
+.dbform_disable_style {background-color: #E3F2F9;BORDER:1px solid #4682B4;BORDER-COLLAPSE: collapse}
+.dbform_inputfield_style{BORDER:1px solid #4682B4;BORDER-COLLAPSE: collapse}
+.dbform_lable_style{background-color: #99BBE8;BORDER:1px solid #4682B4;}
+.dbform_password_style{BORDER:1px solid #4682B4;BORDER-COLLAPSE: collapse}
+.dbform_checkbox_style{border:0}
+.dbform_textarea_style{BORDER:1px solid #4682B4;BORDER-COLLAPSE: collapse}
+
+/*-----------DBLink css-----------*/
+.dbform_dblink_style{}
+
+/*-----------DBOpenWin Css-----------*/
+.dbform_dbopenwin_editor_style{BORDER:1px solid #4682B4;BORDER-COLLAPSE: collapse}
+.dbform_dbopenwind_btn_style{font-size:7pt bold; background-color: #C4CCFF;BORDER:1px solid #4682B4;}
+
+ /*-----------DBFile Css-----------*/
+.dbform_dbfile_btn_style{font-size:7pt bold; background-color: #C4CCFF;BORDER:1px solid #4682B4;}
+/*dblist相关*/
+.dbform_listbox_input_style{BORDER:1px solid #4682B4;BORDER-COLLAPSE: collapse}
+.dbform_listbox_list_style{BORDER:1px solid #4682B4;BORDER-COLLAPSE: collapse;}
+.dbform_listbox_input_disable_style{background-color: #E3F2F9;BORDER:1px solid #4682B4;BORDER-COLLAPSE: collapse;}
+.selectspan{height:20px;border:1px solid #D1E4EC;}
+/**dbdate,dbdatetime相关的样式**/
+.dbform_dbdate_span_style{BORDER:1px solid #333333;BORDER-COLLAPSE: collapse}
+/*dbdate输入框样式*/
+.dbform_dbdate_input_style{BORDER:1px solid #4682B4;BORDER-COLLAPSE: collapse}
+/*dbdate按钮样式*/
+.dbform_dbdate_btn_style{background-image: url(../images/appframes/button/calendar.gif);width:20px;height:20px;border: none;cursor:hand;}
+/*dbspan样式*/
+.dbform_dbspan_style{}
+/*dbhtml组件样*/
+.dbform_dbhtml_style{}
+.DBForm_Layout_Table{}
+.DBForm_Layout_Tr{}
+.DBForm_Layout_Title_Head{}
+.DBForm_Layout_Title_Td{}
+.DBForm_Layout_Data_Td{}
+
+/*-----------进度条相关的CSS-----------*/
+.AIAPPFRAME_WAIT_MAIN_CSS{position:absolute; z-index:500; left:0; top:0; width:90%; height:98%; clip:rect(0,100%,100%,0); background-color:transparent; layer-background-color:white;visibility:hidden}
+.AIAPPFRAME_WAIT_DIV_CSS{background-color:#D6E1F8;width:300px;height:80px;color:#2F5188;border: 2 solid #4682B4;}
+.AIAPPFRAME_WAIT_LOAD_CSS{background-color:#D6E1F8;width:32px;height:32px;}
+
+/*-----------文件上传进度条相关的CSS-----------*/
+.AIAPPFRAME_UPLOAD_MAIN_CSS{position:absolute; z-index:500; left:0; top:0; width:100%; height:98%; clip:rect(0,100%,100%,0); background-color:transparent; layer-background-color:white;visibility:hidden}
+.AIAPPFRAME_UPLOAD_DIV_CSS{background-color:#D6E1F8;width:300px;height:80px;color:#2F5188;border: 2 solid #4682B4;}
+.AIAPPFRAME_UPLOAD_LOAD_CSS{background-color:#D6E1F8;width:32px;height:32px;}
+/*进度条背景样式*/
+.prog-border {height: 15px;width: 380px;background: #fff;border: 1px solid #000;margin: 0;padding: 0;}
+/*进度条前景样式*/
+.prog-bar {height: 11px;margin: 2px;padding: 0px;background: #00ff00;}
+
+/*-----------DBTreeNew相关的css样式-----------*/
+/*树节点中图片的样式*/
+.T-Img{cursor:hand;}
+/*树节点中当出现多选状态时,checkbox的样式*/
+.T-Checkbox{cursor:hand;}
+/*树文本标签的样式*/
+.T-Label{cursor:hand;font-family: "宋体", "Arial", "Verdana"; font-size: 12px;}
+
+/*-----------DBListBox相关的css样式-----------*/
+/*下拉框正常情况下的CSS样式*/
+.DBListBox_normal_style{BORDER: 1px solid #4682B4;BORDER-COLLAPSE: collapse;}
+/*下拉框不可用的情况下的CSS样式*/
+.DBListBox_disabled_style{background-color: #E3F2F9;BORDER: 1px solid #4682B4;BORDER-COLLAPSE: collapse;}
+
+/*-----------AIContentFrame相关的css样式-----------*/
+.line_start{padding:3px}
+.line_end{padding:0}
+.AIContentFrame_head_bg{height:22px;background:url(../images/appframes/contentframe/tb-title.gif) repeat-x;border-top:1 solid #D2DFE7;}
+.AIContentFrame_head_left{width:20px;height:22px;background:url(../images/appframes/contentframe/tb-title.gif) repeat-x;border-left:1 solid #D2DFE7;}
+.AIContentFrame_head_right{width:20px;height:22px;background:url(../images/appframes/contentframe/tb-title.gif) repeat-x;border-right:1 solid #D2DFE7;}
+.AIContentFrame_main{border:1 solid #D2DFE7;background-color:#FFFFFF;}
+
+/*-----------AIContractFrame窗口布局样式-----------*/
+.AIContentFrame{text-align:center}
+.AIContent{ width:98%}
+.x-box-tl{}
+.x-box-tc{}
+.x-box-tr{}
+.x-box-ml{}
+.x-box-mc{background:url(../images/appframes/contentframe/tb-title.gif) repeat-x; padding:6px 10px 0 16px; height:28px; text-align:left;color:#567BA5;font-weight:bold;}
+.x-box-mm{ margin:0 0 5px 0; text-align:left}
+.x-box-mr{}
+.x-box-bl{}
+.x-box-bc{}
+.x-box-br{}
+.x-tool-up{width:15px;height:15px;float:right;cursor:pointer;background:url(../images/appframes/contentframe/tool-up.gif) no-repeat;margin-left:2px;background-position:0 0px;}
+.x-tool-up:hover{background-position:-15px 0px;}
+.x-tool-down{width:15px;height:15px;float:right;cursor:pointer;background:url(../images/appframes/contentframe/tool-down.gif) no-repeat;margin-left:2px;background-position:0 0px;}
+.x-tool-down:hover{background-position:-15px 0px;}
+
+/*-----------AIContractFrame窗口布局样式-----------*/
+.AIContractFrame{text-align:center}
+.AIContract{ width:100%}
+.t-bot-mc{background:url(../images/appframes/contentframe/tb-title.gif) repeat-x; padding:3px 10px 0 10px; height:28px; text-align:left;}
+.t-bot-mc-title{float:left;color:#567BA5;font-weight:bold;padding:4px 0 0 6px;white-space: nowrap; word-break: keep-all;}
+.t-bot-mc-right{float:right;padding:0;white-space: nowrap; word-break: keep-all;}
+.t-bot-mc-word{color:#567BA5;width:80%;text-align:center;padding-top:5px;}
+.t-bot-mc-button{width:20%;text-align:right;}
+.t-bot-mm{ margin:0 0 5px 0; text-align:left}
+.t-tool-up{width:15px;height:15px;float:left;cursor:pointer;background:url(../images/appframes/contentframe/tool-up.gif) no-repeat;margin-left:2px;margin-top:4px;background-position:0 0px;}
+.t-tool-up:hover{background-position:-15px 0px;}
+.t-tool-down{width:15px;height:15px;float:left;cursor:pointer;background:url(../images/appframes/contentframe/tool-down.gif) no-repeat;margin-left:2px;margin-top:4px;background-position:0 0px;}
+.t-tool-down:hover{background-position:-15px 0px;}
+
+/*-----------outlook菜单样式-----------*/
+.title00{height:24px;cursor:pointer;background:url(../images/appframes/contentframe/tb-title.gif) repeat-x bottom;;text-align:center; padding-top:6px;text-decoration:none;}
+.title00:hover{background:url(../images/appframes/contentframe/tb-title.gif) repeat-x bottom;}
+
+.content{ height:100%;overflow:auto;padding:0px;margin:0px;}
+a.li {display:block; height:20px;padding-left:30px;text-decoration: none;padding-top:3px;}
+a.li:hover {background-color: #D6E1F8;height:20px;}

@@ -1,0 +1,81 @@
+#container {
+	margin: 0 auto;
+	width: 90%;
+}
+
+#sidebar {
+	float: left;
+	width: 20%;
+}
+
+#content {
+	float: right;
+	width: 80%;
+	border: 10;
+	border-color: red;
+}
+
+/*20113/5/11 dongjinfeng 样式新增start*/
+.spanshowopen {
+	background-image: url(images/manager/show2.gif);
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: auto;
+	cursor: pointer;
+}
+
+.spanshow {
+	background-image: url(images/manager/show1.gif);
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: auto; x;
+	cursor: pointer;
+}
+
+.spanauitopen {
+	background-image: url(images/manager/auit2.gif);
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: auto;
+	cursor: pointer;
+}
+
+.spanauit {
+	background-image: url(images/manager/auit1.gif);
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: auto;
+	cursor: pointer;
+}
+
+.spanaddopen {
+	background-image: url(images/manager/add2.gif);
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: auto;
+	cursor: pointer;
+}
+
+.spanadd {
+	background-image: url(images/manager/add1.gif);
+	width: 16px;
+	height: 16px;
+	display: block;
+	margin: auto;
+	cursor: pointer;
+}
+
+table th {
+	word-break: keep-all;
+	white-space: nowrap;
+}
+
+table td {
+	word-break: keep-all;
+	white-space: nowrap;
+}

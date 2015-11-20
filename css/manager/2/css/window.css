@@ -1,0 +1,99 @@
+/*Window*/
+.x-window-body { background:#fff;padding:10px;border:none !important;
+}
+.x-window-proxy {
+    background-color:#c7dffc;
+    border-color:#99bbe8;
+}
+
+
+.x-window-tl .x-window-header {
+    color:#15428b;
+	font:bold 11px tahoma,arial,verdana,sans-serif;
+}
+
+.x-window-tc {
+	background-image: url(../images/window/top-bottom2.png);
+	height:24px;
+}
+
+.x-window-tl {
+	background-image: url(../images/window/left-corners2.png);
+	height:24px;
+}
+
+.x-window-tr {
+	background-image: url(../images/window/right-corners2.png);
+	height:24px;
+}
+.x-panel-nofooter .x-window-bc{
+	line-height:0;
+	height:6px;
+	font-size:0;
+}
+.x-window-bc {
+	zoom:1;
+	margin:0px;
+	padding:0px;
+	background:repeat-x 0px bottom;
+	background-image: url(../images/window/top-bottom3.png);
+}
+
+.x-window-bl {
+	padding-left:6px;
+	zoom:1;
+	background:no-repeat 0px bottom;
+	background-image: url(../images/window/left-corners3.png);
+}
+
+.x-window-br {
+	padding-right:6px;
+	zoom:1;
+	background:no-repeat right bottom;
+	background-image: url(../images/window/right-corners3.png);
+}
+
+.x-window-mc {
+    border:none;
+    font: normal 11px tahoma,arial,helvetica,sans-serif; color:#333;
+    background-color:#edf7ff !important; 
+}
+
+.x-window-ml {
+	background-image: url(../images/window/left-right2.png);
+}
+
+.x-window-mr {
+	padding-right:6px;
+	zoom:1;
+	background:repeat-y right 0px;
+	background-image:url(../images/window/left-right3.png);
+}
+
+.x-window-maximized .x-window-tc {
+    background-color:#fff;
+}
+
+.x-window-dlg .x-window-header-text {
+    font-size:12px;color:#fff; padding:3px 0 0 5px; letter-spacing:1px !important;
+}
+
+.x-window-draggable, .x-window-draggable .x-window-header-text {
+    color:#fff; padding:3px 0 0 5px; letter-spacing:1px !important;
+}
+.x-window-header-text {
+    color:#fff; padding:3px 0 0 5px; letter-spacing:1px !important;
+	font-size:12px;
+}
+
+.x-window-tr .x-window-tc .x-window-header  .x-tool-close{margin:0 1px 0px 0px}
+.x-tool-close{background-image:url(../images/window/esop_menuclose2.png);}
+.x-tool-close-over {
+    background-image:url(../images/window/esop_menuclose2.png);
+    background-position:;
+}
+.x-window-mc{border:none !important;}
+.x-window-plain .x-window-body{}
+.ext-mb-text{color:#969696;}
+.x-btn-mc{}
+.x-btn-ml,.x-btn-mr{border:none;}

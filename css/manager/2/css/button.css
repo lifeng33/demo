@@ -1,0 +1,158 @@
+/*正常按钮*/ 
+.AIButton .AIBtnLeft {}
+.AIButton .AIBtnCenter {background:url(../images/btn/button_bg.gif) repeat-x 0 0; height:22px; border:1 solid #8EB2E4; color:#000; padding:2px 10px 1px 10px; vertical-align:bottom;}
+.AIButton .AIBtnRight {}
+.AIButton .AIBtnText {font-size:12px;}
+/*鼠标滑动*/
+.AIButtonHover .AIBtnLeft {}
+.AIButtonHover .AIBtnCenter {background:url(../images/btn/button_bg.gif) repeat-x 0 -20px; height:22px; border:1 solid #E8A838; color:#A26926; padding:2px 10px 1px 10px; vertical-align:bottom;}
+.AIButtonHover .AIBtnRight {}
+.AIButtonHover .AIBtnText {font-size:12px;}
+/*不可用按钮*/
+.AIButtonDisabled .AIBtnLeft {}
+.AIButtonDisabled .AIBtnCenter {background:url(../images/btn/button_bg.gif) repeat-x 0 0; height:22px; border:1 solid #8EB2E4; cursor: hand; color:#063372; padding: 2px 10px 1px 10px; vertical-align:bottom;}
+.AIButtonDisabled .AIBtnRight {}
+.AIButtonDisabled .AIBtnText {font-size:12px;}
+
+.defaultBut{
+  BORDER-RIGHT: #7b9ebd 1px solid;
+  PADDING-RIGHT: 4px;
+  BORDER-TOP: #7b9ebd 1px solid;
+  PADDING-LEFT: 6px;
+  FONT-SIZE: 12px;
+  background: url("../../../image/but_bg.gif");
+  BORDER-LEFT: #7b9ebd 1px solid;
+  CURSOR: pointer;
+  COLOR: black;
+  PADDING-TOP: 2px;
+  BORDER-BOTTOM: #7b9ebd 1px solid;
+}
+
+input[type=text], .inputtext, .x-form-text {
+	color: #9d9d9d;
+}
+
+
+.btn-1word {background: url(../images/button/hw_newleft.png) no-repeat;height:16px;width:6px;border:0px solid red;cursor:hand;margin-right: 10px;blr:expression(this.onFocus=this.blur());}
+
+.btn-Sword {background: url(../images/button/hw_newright.png) no-repeat;height:16px;width:6px;border:0px solid red;cursor:hand;margin-left: 10px;blr:expression(this.onFocus=this.blur());}
+
+.btn-2word {color:#336699;background: url(../images/tb_buttonbg.jpg);height: 21px;width: 60px;cursor:hand;margin: 0px;padding-top:2px;color:black;border:none;}
+
+.btn-3word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-4word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-5word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-6word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-7word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-8word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-9word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-10word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-11word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-12word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-13word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-14word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-15word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-16word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-17word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-18word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-19word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-20word {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+
+.btn-1word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;width: 30px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-2word-hover {color:black;background: url(../images/tb_buttonbg.jpg);height: 21px;width: 60px;border:none;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-3word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-4word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-5word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-6word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-7word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-8word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-9word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-10word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-11word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-12word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-13word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-14word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-15word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-16word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-17word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-18word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-19word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-20word-hover {color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+
+.btn-1word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;width: 30px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-2word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;width: 48px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-3word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-4word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-5word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-6word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-7word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-8word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-9word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-10word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-11word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-12word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-13word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-14word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-15word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-16word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-17word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-18word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-19word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}
+
+.btn-20word-gray{color:#336699;background: url(../images/button/button_bg.gif);height: 20px;border:1 solid #70A4D5;cursor:hand;margin: 0px;padding-top:2px;}

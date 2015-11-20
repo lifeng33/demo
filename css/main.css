@@ -1,0 +1,356 @@
+/* MENU Aaron 2014/1/3 17:40
+--------------------------- */
+
+html,
+body {
+    min-width: 960px;
+    font-family: 'Lato', Helvetica, '微软雅黑', Arial, sans-serif;
+    font-size: 12px;
+}
+
+html,
+body,
+.contenter {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+
+ul,
+li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+input,
+select {
+    height: 30px;
+    line-height: 20px;
+    padding: 4px 10px;
+    border-radius: 4px;
+    border: 1px solid #E4E4E4;
+    vertical-align: middle;
+}
+
+input[name="button"] {
+    padding: 4px 30px;
+    background: #E9F3F8;
+    outline: none;
+}
+
+input[name="button"]:hover {
+    background: #F6F6F7;
+}
+
+select.form-control {
+    height: 30px;
+    display: inline;
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+button[type="button"] {
+    outline: none;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.table > thead > tr > th {
+    padding: 5px;
+    background: #eee;
+    border: 1px solid #ddd;
+}
+
+.table > tbody > tr > td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.table tbody > tr:nth-child(even) > td,
+.table tbody > tr:nth-child(even) > th {
+    background-color: #F6F6F6;
+}
+
+.table tbody tr:hover > td,
+.table tbody tr:hover > th {
+    /*background-color: #eee;*/
+    background: #F7F7F7;
+}
+
+/* 浮动 */
+.fixer {
+    position: fixed;
+    top: 0;
+    overflow: visible;
+    z-index: 4;
+}
+
+/* Banner */
+.banner {
+    height: 70px;
+    line-height: 70px;
+    padding: 0 10px;
+    background: #ECF1F6;
+    /*background: url(../images/loginHeaderBgGrey.png) #ddd;*/
+}
+
+.banner span.bannerName {
+    padding-left: 10px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.banner span.user {
+    float: right;
+}
+
+.banner span.news {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    margin: -2px 15px 0 15px;
+    background: url(../images/sms.png);
+    vertical-align: middle;
+}
+
+.banner a.login, .banner a.logout {
+    margin-right: 15px;
+}
+
+/* Logo */
+.logo {
+    height: 70px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: transparent;
+    font-weight: bold;
+    transition: all 0.5s;
+    cursor: pointer;
+    background: url(../images/ZZ_logo.png) rgb(225, 108, 15) no-repeat center;
+}
+
+/* welcome */
+.welcome {
+     height: 470px;
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+    color: transparent;
+    font-weight: bold;
+    transition: all 0.5s;
+    cursor: pointer;
+    background: url(../images/welcome.jpg)  no-repeat center;
+}
+
+
+
+.logo:hover {
+    /*color: rgba(255,255,255,1);*/
+    transition: all 0.5s;
+    opacity: 1;
+}
+
+/* Content 主内容区 */
+.content {
+    float: right;
+    width: 86%;
+    min-width: 744px;
+    min-height: 100%;
+    background: #F6F6F6;
+    display: inline-block;
+}
+
+.contentInner {
+    margin: 0 10px;
+}
+
+/* ToolBar 工具栏 */
+.toolBar {
+    line-height: 50px;
+    padding: 0 10px;
+    border-bottom: 2px solid #EDEDEE;
+}
+
+/* SectionTitle 板块标题 */
+section > div.sectionTitle {
+    padding-bottom: 10px;
+    font-size: 1.4em;
+}
+
+/* Chart 曲线图 */
+.chart {
+    min-height: 200px;
+    margin: 20px 0;
+    padding: 20px 0;
+    background: #f9f9f9;
+    /*border-top: 2px solid #b1b8be;*/
+    /*border-bottom: 2px solid #D1D1D1;*/
+}
+
+/* Report 报表 */
+.report {
+    min-height: 200px;
+    background: #f9f9f9;
+    /*border-top: 2px solid #b1b8be;*/
+}
+
+/* CopyRight 版权*/
+.copyRight {
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    min-width: 134px;
+    color: #565D64;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.copyRight:hover {
+    color: #8A8A8A;
+    transition: all 0.5s;
+}
+
+/* Modal 弹出层 */
+div.modal {
+    overflow: auto;
+}
+
+div.modal-content {
+    padding: 10px;
+    background: #FDFDFD;
+}
+
+div.modal-content {
+    -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+}
+
+/* Popover 弹出层 */
+.popover {
+    display: none !important;
+}
+
+/* 公告 调度排班 客服旺旺 诊断 */
+.declaration,
+.scheduling,
+.customerServicesWW,
+.diagnosis {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f9f9f9;
+    border: 1px solid #EDEDEE;
+    border-radius: 4px;
+}
+
+/* Declaration 公告 */
+.declaration > p {
+    text-indent: 2em;
+    /*border-left: 2px solid #5594CA;*/
+}
+
+.schedulingTable th,
+.schedulingTable td {
+    text-align: center;
+}
+
+.schedulingEdit li {
+    text-align: center;
+    /*border-bottom: 1px solid #ddd;*/
+}
+
+.schedulingEdit li:last-child {
+    border-bottom: none;
+}
+
+.schedulingEdit li > input {
+    margin: 0;
+    margin-right: 6px;
+    margin-left: 20px;
+    display: inline-block;
+}
+
+.schedulingEdit li > span {
+    width: 40px;
+    display: inline-block;
+}
+
+/* CcustomerServicesWW 客服旺旺 */
+.customerServicesWW ul li {
+    display: inline-block;
+    margin: 5px 10px;
+    padding: 4px 10px;
+    color: #707379;
+    background: #F5EAEA;
+    border-radius: 16px;
+}
+
+.customerServicesWW ul li img {
+    width: 15px;
+    margin-top: -2px;
+    margin-right: 4px;
+    opacity: 0.8;
+}
+
+.customerServicesWW ul li a {
+    color: #707379;
+}
+
+/* Diagnosis 诊断 */
+.diagnosis ul li {
+    margin: 5px 10px;
+    padding: 4px 10px;
+    color: #707379;
+    background: #F5EAEA;
+    border-radius: 16px;
+}
+
+/*  GroupLeader 组长分配 */
+.groupLeader span {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.groupLeader li {
+    margin-bottom: 10px;
+}
+
+.space {
+    min-height: 4px;
+    margin: 4px 0;
+    padding: 4px 0;
+    background: #f9f9f9;
+    /*border-top: 2px solid #b1b8be;*/
+    /*border-bottom: 2px solid #D1D1D1;*/
+}
+
+.toolBar > form {
+    display: inline-block;
+}
+
+input[type=radio] {
+    height: 15px;
+}
+
+div.main {
+    overflow-x: auto;
+    margin-top: 5px;
+}
+
+form {
+    margin-bottom: 5px;
+}
+
+.dropdown-menu {
+    width: 140px;
+    min-width: 0;
+}

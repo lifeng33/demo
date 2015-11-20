@@ -1,0 +1,32 @@
+ 
+.AIContentFrame{text-align:center}
+.AIContent{ width:98%}
+.line_start{padding:3px}
+.line_end{padding:0}
+.x-box-tl{background:url(../images/content/corners-blue.gif) no-repeat 0 0;zoom:1;}
+.x-box-tc{height:8px;background:url(../images/content/tb-blue.gif) repeat-x 0 0;overflow:hidden;}
+.x-box-tr{background:url(../images/content/corners-blue.gif) no-repeat right -8px;}
+.x-box-ml{background:url(../images/content/l-blue.gif) repeat-y 0;padding-left:4px;overflow:hidden;zoom:1;}
+.x-box-mc{background:url(../images/content/tb-blue.gif) repeat-x 0 -16px;padding:4px 10px; color:#2F5188; font-weight:bold; text-align:left}
+.x-box-mm{ margin:0 4px 0 4px; background:#E4EBF9; text-align:left}
+.x-box-mr{background:url(../images/content/r-blue.gif) repeat-y right;padding-right:4px;overflow:hidden; background-color:#C3DAF9}
+.x-box-bl{background:url(../images/content/corners-blue.gif) no-repeat 0 -16px;zoom:1;}
+.x-box-bc{background:url(../images/content/tb-blue.gif) repeat-x 0 -8px;height:8px;overflow:hidden;}
+.x-box-br{background:url(../images/content/corners-blue.gif) no-repeat right -24px;}
+.x-box-tl,.x-box-bl{padding-left:8px;overflow:hidden;}
+.x-box-tr,.x-box-br{padding-right:8px;overflow:hidden;}
+
+.AIContractFrame{text-align:center}
+.AIContract{margin:0 5px; border:1px solid #ccc;}
+.t-bot-mc{background:url(../images/portlet_1.png) repeat-x; height:27px; text-align:left;}
+.t-bot-mc-title{ float:left; background:url(../images/portlet_3.png) no-repeat; color:#fff; letter-spacing:1px; font-size:12px;
+font-weight:bold; text-align:left; padding:0 5px 0 15px ; height:27px; line-height:27px;}
+.t-bot-mc-right{  float:left; display:inline-block; background:url(../images/portlet_4.png) no-repeat; width:15px; height:27px; margin-right:20px; padding-right:20px;}
+.t-bot-mc-word{color:#567BA5;width:80%;text-align:center;padding-top:5px;}
+.t-bot-mc-button{width:20%;text-align:right;}
+.t-bot-mm{ padding:5px; text-align:left;background:url(../images/tb_repeatbg.jpg) bottom repeat-x;}
+
+.AIContentFrame_head_bg{height:20px;background:url(../images/content/title_bg1.gif);}
+.AIContentFrame_head_left{width:40px;height:20px;background:url(../images/content/title_left1.gif);background-repeat:no-repeat}
+.AIContentFrame_head_right{width:20px;height:20px;background:url(../images/content/title_right1.gif);background-repeat:no-repeat}
+.AIContentFrame_main{border:1 solid #D2DFE7;background-color:#FFFFFF;}

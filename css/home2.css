@@ -1,0 +1,454 @@
+﻿/* CSS Document */
+/*CSS reset*/
+html {
+	background: #fff;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img {
+	border: 0;
+}
+img {
+	vertical-align:middle;
+}
+address, caption, cite, code, dfn, em, var, optgroup {
+	font-style: inherit;
+	font-weight: inherit;
+}
+del, ins {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+caption {
+	text-align: left;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+sup {
+	vertical-align: baseline;
+}
+sub {
+	vertical-align: baseline;
+}
+legend {
+	color: #000;
+}
+input, button, textarea, select, optgroup, option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+input, button, textarea, select {
+*font-size:100%;
+	vertical-align:middle;
+}
+dfn {
+	vertical-align:top;
+	font-size:12px;
+	font-weight:bold;
+}
+/*浮动*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+/*定位*/
+.tl, .t_l {
+	text-align: left;
+}
+.tc, .t_c {
+	text-align: center;
+}
+.tr, .t_r {
+	text-align: right;
+}
+.bc {
+	margin-left: 0;
+	margin-right: 0;
+}
+.fl, .f_l {
+	float: left;
+	display: inline;
+}
+.fr, .f_r {
+	float: right;
+	display: inline;
+}
+.vm {
+	vertical-align: middle;
+}
+.pr {
+	position: relative;
+}
+.pa {
+	position: absolute;
+}
+.abs-right {
+	position: absolute;
+	right: 0;
+}
+.zoom {
+	zoom:1;
+}
+.hidden {
+	visibility: hidden;
+}
+.none, .dis_none {
+	display: none;
+}
+/*边距*/
+.m10 {
+	margin: 30px;
+}
+.mt10 {
+	margin-top: 30px;
+}
+.mb10 {
+	margin-bottom: 30px;
+}
+.ml10 {
+	margin-left: 30px;
+}
+.mr10 {
+	margin-right: 30px;
+}
+/*layout style*/
+body {
+	font:12px/1.5 Arial, Helvetica, sans-serif;
+}
+a {
+	color:#0071ad;
+	text-decoration:none;
+}
+a:hover {
+	color:#f60;
+	text-decoration:none;
+}
+
+/*-----------------------HOME页-----------------------------*/
+.cj-homeMain{
+	width:1200px;
+	margin:0 auto;
+	color:#333;
+}
+.cj-commonBox{
+	width:388px;
+	margin:5px;
+	_margin:5px 4px;
+	border:1px solid #ccc;
+	float:left;
+}
+.cj-commonBox .ttl{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #ccc;
+	background:url(../images/cj-commonBox-bg.jpg) repeat-x;
+	position:relative;
+}
+.cj-commonBox .ttl span.sf{
+	font-size:14px;
+	font-weight:bold;
+	font-family:"microsoft Yahei";
+	position:absolute;
+	left:5px;
+}
+.cj-commonBox .ttl a.cj-more{
+	display:inline-block;
+	padding-right:17px;
+	height:20px;
+	background:url(../images/cj-more.gif) right center no-repeat;
+	position:absolute;
+	right:5px;
+	top:5px;
+	font:11px/20px Arial;
+	color:#666;
+	text-shadow: 1px 1px 0 #fff;
+}
+.cj-commonBox .ttl a.cj-more:hover{
+	color:#f60;
+}
+.cj-commonBox .cnt{
+	height:258px;
+	overflow:hidden;
+}
+.myMessage{
+	width:100%;
+	padding:5px 0;
+}
+.myMessage li{
+	width:100%;
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px dotted #ccc;
+	background:url(../images/cj-dot.gif) 10px center no-repeat;
+	text-indent:18px;
+	overflow:hidden;
+}
+.myMessage li a{
+	color:#333;
+}
+.myMessage li a:hover{
+	color:#f60;
+}
+.sysMessage{
+	width:100%;
+	padding:5px 0;
+}
+.sysMessage li{
+	width:100%;
+	display:inline-block;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px dotted #ccc;
+	background:url(../images/cj-dot.gif) 10px center no-repeat;
+	text-indent:18px;
+	overflow:hidden;
+}
+.sysMessage li a{
+	color:#333;
+}
+.sysMessage li a:hover{
+	color:#f60;
+}
+.myPerformance{
+	width:100%;
+}
+.myPerformance tr.trbg{
+	background:#eee;
+}
+.myPerformance th{
+	height:24px;
+	background:#aaa;
+	color:#fff;
+}
+.myPerformance td{
+	height:29px;
+	text-align:center;
+	font-weight:bold;
+}
+.myPerformance td.textr{
+	font-weight:bold;
+	text-align:right;
+	padding-right:35px;
+	color:#777;
+}
+.f_green{ color:#2b641b;}
+.f_red{ color:#cc0000;}
+
+.myScheduling{
+	width:1190px;
+	margin:10px auto;
+	color:#333;
+	font-family:"Arial","microsoft Yahei";
+}
+.myScheduling .ttl{
+	width:1188px;
+	border:1px solid #ccc;
+	height:30px;
+	line-height:30px;
+	border-bottom:1px solid #ccc;
+	background:url(../images/cj-commonBox-bg.jpg) repeat-x;
+	position:relative;
+	text-align:center;	
+}
+.myScheduling .ttl span.sf{
+	font-size:14px;
+	font-weight:bold;
+	font-family:"microsoft Yahei";
+}
+.myScheduling .weekList{
+	height:26px;
+	background:#aaa;
+	color:#fff;
+	font-weight:bold;
+}
+.myScheduling .weekList li{
+	display:inline-block;
+	width:170px;
+	float:left;
+	height:26px;
+	line-height:26px;
+	text-align:center;
+}
+.myScheduling .weekList li.end{
+	width:168px;
+}
+
+.myScheduling .dayList{
+	width:1189px;
+	border-left:1px solid #ccc;
+}
+.dayList ul{
+	width:100%;
+}
+.dayList ul li{
+	width:169px;
+	height:148px;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+	float:left;
+}
+.dayList ul li.end{
+	width:168px;
+}
+.dayList ul li.hasSchedule,.dayList ul li.rest{
+	position:relative;
+}
+.dayList ul li.hasSchedule .day,.dayList ul li.rest .day{
+	font-size:30px;
+	font-weight:bold;
+	font-family:Arial;
+	font-style:italic;
+	line-height:30px;
+	color:#ccc;
+	position:absolute;
+	right:1px;
+	bottom:1px;
+	z-index:1;
+}
+.dayList ul li.hasSchedule .schedules,.dayList ul li.hasSchedule .remark{
+	position:absolute;
+	z-index:2;
+	width:164px;
+	padding:5px 2px;
+	line-height:16px;
+	height:64px;
+	overflow-y:auto;
+}
+.dayList ul li.hasSchedule .remark{
+	color:#89432b;
+	top:74px;
+}
+.dayList ul li.rest .restFont{
+	text-align:center;
+	line-height:148px;
+	font-size:20px;
+	font-weight:bold;
+	color:#447836;
+}
+
+.calendarSelects {
+	position:absolute;
+    width:170px;
+	top:3px;
+}
+.calendarSelects em, .calendarSelects span {
+    background: url(../images/cj-calendardot.gif) no-repeat;
+    cursor: pointer;
+    display: inline-block;
+    position: absolute;
+    top: 3px;
+}
+.calendarSelects span {
+    background-position: right -44px;
+    height: 22px;
+    line-height: 22px;
+    padding-right: 12px;
+	font-weight:bold;
+}
+.calendarSelects em {
+    height: 22px;
+    width: 20px;
+}
+.calendarSelects em.emprev {
+    background-position: 0 0;
+    left: 0;
+}
+.calendarSelects em.emnext {
+    background-position: 0 -22px;
+    right: 0;
+}
+.calendarSelects span.syear {
+    left: 30px;
+    z-index: 2;
+}
+.calendarSelects span.smonth {
+    right: 30px;
+    z-index: 2;
+}
+.syearlist {
+    background: #fff;
+    border: 1px solid #2E510D;
+    height: 140px;
+    left: 20px;
+    overflow-y: auto;
+    padding: 2px;
+    position: absolute;
+    top: 22px;
+    width: 60px;
+    z-index: 1;
+}
+.syearlist li {
+    border-bottom: 1px dashed #94BDD7;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.syearlist li a {
+    color: #333333;
+    display: inline-block;
+    height: 24px;
+    width: 100%;
+}
+.syearlist li a:hover {
+    color: #FF6600;
+}
+.smonthlist {
+    background: #fff;
+    border: 1px solid #2E510D;
+    height: 140px;
+    overflow-y: auto;
+    padding: 2px;
+    position: absolute;
+    right: 20px;
+    top: 22px;
+    width: 50px;
+    z-index: 1;
+}
+.smonthlist li {
+    border-bottom: 1px dashed #B6DF9B;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+}
+.smonthlist li a {
+    color: #333333;
+    display: inline-block;
+    height: 24px;
+    width: 100%;
+}
+.smonthlist li a:hover {
+    color: #FF6600;
+}
+.calendarWeek {
+    background: none repeat scroll 0 0 #699CBD;
+    color: #064876;
+    height: 22px;
+    line-height: 22px;
+    width: 100%;
+}

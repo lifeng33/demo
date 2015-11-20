@@ -1,0 +1,138 @@
+@charset "utf-8";
+/*====================== 固定高带滚动条的表格 ========================================*/
+.ktable{
+width:600px;background:#e2f3ff!important; color:#000!important;
+}
+.ktable02{
+color:#c1c1c1;
+}
+.ktable03{border:1px solid #6b6b6b;color:#000;background:#fff;font:normal 12px Tahoma;height:18px}
+.fixed_height_table{
+	height:188px;
+	padding:1px;
+	overflow-y:auto;
+	overflow-x:hidden;
+	scrollbar-face-color: #fefefe;
+	scrollbar-shadow-color: #c4cfcd;
+	scrollbar-highlight-color: #c4cfcd;
+	scrollbar-3dlight-color: #f6f6f6;
+	scrollbar-darkshadow-color: #f6f6f6;
+	scrollbar-track-color: #f6f6f6;
+	scrollbar-arrow-color: #c4cfcd;
+}
+/*====================== 黑色共用表格样式 ======================*/
+.black_table{
+	background:#fff;
+	border:1px solid #abbbff;
+	border-collapse:collapse;
+	font-family:Arial,  宋体;
+	margin:0px auto;	
+	width:99%;
+}
+.black_table thead th {
+	background-color:#5faced;
+	border:1px solid #6daad6;
+	color:#fff;
+	font-weight:normal;
+	height:24px;
+	text-align:center;
+	white-space:nowrap;
+}
+.black_table td{
+	border:1px solid #abbbff;
+	border-top:none;
+	color:#595959;
+	line-height:22px;
+	padding-left:4px;
+	padding-right:4px;
+	text-align:left;
+	white-space:nowrap;
+}
+
+.black_table td span{
+	color:#ffa500;
+	font-weight:bold;
+	padding-right:3px;
+}
+.black_table td a{
+	color:#0CF104;
+}
+.black_table td a:hover{
+	color:#f8be05;
+}
+.black_table_tr_hover{
+	background-color:#e8f0f7;
+}
+.black_table_tr_over{
+	background-color:#e8f0f7;
+}
+.text_align_right{
+    text-align:right;
+}
+/*---------------普通 表格 样式---------------------*/
+.no_border_table{
+	background:none;
+	border:none;
+	border-collapse:collapse;
+	font-family:Arial,  宋体;
+	margin:0px auto;	
+	width:100%;
+}
+/*---------------仿表格样式---------------------*/
+	.rowDiv{ width:99.5%; background:#e2f3ff; color:#C1C1C1;}
+	.rowDivBottom{ width:99.5%; background:#e2f3ff; border-bottom:1px solid #fff;
+	}
+	.innerRowDiv{border-top: 1px solid #fff; border-right: 1px solid #fff; border-left: 1px solid #fff;}
+	.innerRowDivTwo{border-top: 1px solid #fff;}
+	.innerRowDiv p{
+		margin: 3px 0 0 5px;  float:left;}
+	.innerRowDiv a{
+		margin-left: 5px; line-height: 23px; text-decoration:underline; color:#4e85c5;
+	}
+	
+	.columDiv{
+		float: left;
+		width: 49%;	
+	}
+	.fieldLable{
+		display: block; border-right: 1px solid #fff; border-left: 1px solid #fff;
+		float: left;
+		width: 150px; background:#e2f3ff; color:#C1C1C1; text-align: right; padding: 0 5px 0 0; line-height:22px; height:22px;
+	}
+	.fieldLableTwo{
+	display: block; 
+	float: left;
+	width: 150px; text-align: right; padding: 0 10px 0 0; line-height:22px;
+	}
+	.required { color: #000; padding:2px 0 0 3px;}
+	.fieldComp{
+		display: block; margin:2px 0 0 3px; padding-top:2px; 
+		float: left;
+		text-align: left; }
+		
+	span.fieldComp{
+		padding-top: 2px; 
+	}
+		#buttons{
+			text-align: center;
+			padding-top: 5px;
+			padding-bottom: 5px;
+		}
+  .select{
+   width:130px; border:1px solid  #6b6b6b!important;
+   background:#fff !important;
+   color:#c1c1c1!important;
+   height:18px!important;
+}
+
+/*---------------处理人列表样式---------------------*/
+.issuerTable{width:95%; margin:10px 0 10px 10px;}
+.issuerList{ width:160px; padding-left:10px;} 
+.issuerOnclick{ color:#0cf104; width:100px; display:block; text-align:center; cursor:pointer; text-decoration:underline;}
+.attachBox{ width:95%; margin:10px 0 10px 20px; color:#f8be05; font-weight:bold; border-top:1px solid #5e5e5e; padding-top:10px;}
+.attachBody { color:#ddd;}
+#attachList { margin-left:20px;}
+#attachList span { padding-right:20px;}
+#attachList a { color:#0cf104; text-decoration:underline; }
+#attachList a:hover { color:#f8be05; }
+

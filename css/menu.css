@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+div.menu {
+	float: left;
+	width: 14%;
+}
+/* 
+.ztree li .button.switch {
+	visibility: hidden;
+	width: 1px;
+}
+
+.ztree li .button.switch.roots_docu {
+	visibility: hidden;
+	width: 16px;
+}
+
+.ztree li .button.switch.center_docu {
+	visibility: hidden;
+	width: 16px;
+}
+
+.ztree li .button.switch.bottom_docu {
+	visibility: hidden;
+	width: 16px;
+}
+
+.ztree ul,.ztree li {
+	margin: 0;
+	padding: 0;
+	border: none;
+	outline: none;
+}
+
+.ztree li {
+	background: #162736;
+}
+
+.ztree li a {
+	color: #fdfdfd;
+	height: 50px;
+	display: block;
+}
+
+.ztree li a.curSelectedNode {
+	height: 50px;
+	background-color: #efefef;
+	border: 0;
+} */

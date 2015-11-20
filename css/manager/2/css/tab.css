@@ -1,0 +1,52 @@
+@charset "utf-8";
+
+.commonTab {
+	height: 23px;
+	list-style-type: none;
+}
+
+.commonTab li {
+	height: 23px;
+	line-height: 24px;
+	text-align: center;
+	float: left;
+	overflow:hidden;
+}
+.commonTab a {
+	background:url(../images/pic/com_tab_left.gif) no-repeat 0 0;
+	display: block;
+	text-decoration: none;
+}
+.commonTab a span {
+	background:url(../images/pic/com_tab_right.gif) no-repeat 100% 0;
+	padding: 0 15px 0 15px;
+	display: block;
+	color: #000000;
+	cursor:pointer;
+}
+.commonTab a:hover {
+	background: url(../images/pic/com_tab_left.gif) no-repeat 0 -23px;
+	display: block;
+	text-decoration: none;
+	cursor:pointer;
+}
+.commonTab a:hover span {
+	background: url(../images/pic/com_tab_right.gif) no-repeat 100% -23px;
+	padding: 0 15px 0 15px;
+	display: block;
+	color: #000000;
+}
+
+.commonTab .tab_cur a {
+	background: url(../images/pic/com_tab_left.gif) no-repeat 0 -23px;
+	display: block;
+	text-decoration: none;
+	cursor:pointer;
+}
+.commonTab .tab_cur a span {
+	background: url(../images/pic/com_tab_right.gif) no-repeat 100% -23px;
+	padding: 0 15px 0 15px;
+	display: block;
+	color: #000000;
+}
+

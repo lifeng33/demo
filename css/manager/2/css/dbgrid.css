@@ -1,0 +1,98 @@
+/* CrossGrid页面样式 */ 
+/*表格固定行头抬头部分样式*/
+.CrossGridRowHead_Name{BACKGROUND-COLOR: #ffdddd;}
+/*表格固定行头数值部分样式*/
+.CrossGridRowHead_Value{BACKGROUND-COLOR: #efe1ff;}
+/*表格固定列头的样式*/
+.CrossGridColHead{BACKGROUND-COLOR: #ecffec;}
+/* 数据区域样式*/
+.CrossGrid_Data{BACKGROUND-COLOR: #FFFFFF;}
+/* 选中行/列样式*/
+.CrossGrid_Row{BACKGROUND-COLOR: #c4ccff;}
+
+/* DBGrid 页面样式 */
+/**---------------------------------------------
+新样式 样式说明 对应老样式
+G-TableHead 表格表头样式 DBGrid_TableHead
+G-TableBody 表格数据区域样式 DBGrid_TableBody
+G-TableFoot 表格脚区域样式 DBGrid_TableFoot
+G-ScrollBar 滚动条样式 DBGrid_ScrollBar
+GH-Head  表格头区域样式 DBGrid_THead
+GH-TR 表格头TR样式 DBGrid_THead_Tr
+GH-TD 表格头TD样式 DBGrid_THead_Td
+GH-S 表格头多选单元格样式 无
+GH-S-C  表格头的多选Checkbox样式 DBGrid_MultiSelect_HeadCheckbox
+GH-Seq 表格头的序号 DBGrid_Head_RowSequence
+GD-One 奇数行样式 DBGrid_Data_Tr
+GD-Two 偶数行样式 DBGrid_Data_Tr
+GD-TD 表格数据区域TD样式 DBGrid_Data_Td
+GD-S 表格数据行多选单元格样式 DBGrid_Data_Tr_Head
+GD-S-C  表格数据行的多选Checkbox样式 DBGrid_MultiSelect_Checkbox
+GD-Seq 表格数据的序号 DBGrid_Data_RowSequence
+GD-SelectRow 选中行样式 DBGrid_Data_SelectRow
+GD-CurrentRow 当前行样式 DBGrid_Data_CurrentRow
+GD-CurrentCell 当前单元格样式 DBGrid_Data_CurrentCell
+GD-Total-TR  合计行样式 DBGrid_Data_Tr_Total
+GD-Total-TD  合计行单元格样式 DBGrid_Data_Td_Total
+GH-SORT-ASC 抬头升序排序样式 无
+GH-SORT-DESC 抬头降序排序样式 无
+------------------------------------------------------   **/
+
+
+.td_hover{background-color:#e6faff;color:#666666;}
+.title_hover{height:20px;color:#35506C;text-align:center;border:#c8c8c8 solid;border-width:0 1 1 0;display:block;}
+/*最外层区域样式*/
+.G-TableOuterDiv{border: 1px solid #cccccc;background:#FFFFFF;}
+.G-TableHead{height:20px;color:#000000;TABLE-LAYOUT: fixed;border-COLLAPSE: collapse;background:url(../images/aigrid/title_bg.gif);display:block;}
+/*表格数据区域样式*/
+.G-TableBody{border:#cccccc;background-color:;}
+/*表格脚区域样式*/
+.G-TableFoot{background:white;border:#cccccc solid;border-width:0 1 1 1;height:27px;}
+/*表格头区域样式*/
+.GH-Head{height:24px;color:#5371BA;text-align:center;border:#99BBE8 solid;border-width:0 0 0 0;background:#F8F9FD;}
+/*表格头TR样式*/
+.GH-TR{} 
+/*表格头TD样式*/
+.GH-TD{height:20px;color:#000000;text-align:center;border:#c8c8c8 solid;border-width:0 1 1 0;display:block;}
+/*合计行样式*/
+.GD-Total-TR{border:#FFFFFF solid;border-width:0 1 1 0;color:#336699;}
+/*合计行单元格样式*/
+.GD-Total-TD{border:#FFFFFF solid;border-width:0 1 1 0;color:#336699;}  
+/*表格数据行多选单元格样式*/
+.GD-S{text-align:center;border:#FFFFFF solid;border-width:0 1 1 0;display:block;}
+/*表格头多选单元格样式*/
+.GH-S{height:20px;color:#000000;border:#c8c8c8 solid;border-width:0 1 1 0;TABLE-LAYOUT: fixed;border-COLLAPSE: collapse;display:block;}
+/*表格头的多选Checkbox样式*/
+.GH-S-C{border:0;}
+/*表格数据行的多选Checkbox样式*/
+.GD-S-C{border:0;width:25px;}
+/*表格头的序号*/
+.GH-Seq{height:20px;color:#000000;text-align:center;border:#FFFFFF solid;border-width:0 1 1 0;TABLE-LAYOUT: fixed;border-COLLAPSE: collapse;background:url(../images/aigrid/title_bg.gif);display:block;}
+/*表格数据的序号*/
+.GD-Seq{text-align:center;border:#FFFFFF solid;border-width:0 1 1 0;display:block;}
+/*奇数行样式*/
+.GD-One{background:#FFFFFF;border:none;color:#336699;}
+/*偶数行样式*/
+.GD-Two{background:#f7f7f7;border:none;color:#336699;}
+/*表格数据区域TD样式*/
+.GD-TD{height:25px;color:black;border:#FFFFFF solid;border-width:0 1 1 0;word-break:break-all;}
+/*选中行样式*/
+.GD-SelectRow{}
+/*当前行样式*/
+.GD-CurrentRow{background-color:#E6F0FA;color:#336699;}
+/*当前单元格样式*/
+.GD-CurrentCell{background-color:#e0edfa;border:#FFFFFF solid;border-width:0 1 1 0;word-break:break-all;color:#000; }
+/*DBGrid滚动条样式*/
+.G-ScrollBar{overflow:auto;SCROLLBAR-FACE-COLOR:#E4EFF1;SCROLLBAR-HIGHLIGHT-COLOR:#99BBE8;SCROLLBAR-SHADOW-COLOR:#99BBE8;SCROLLBAR-3DLIGHT-COLOR:#F8F9FD;SCROLLBAR-ARROW-COLOR:#99BBE8;SCROLLBAR-TRACK-COLOR:#F8F9FD;SCROLLBAR-DARKSHADOW-COLOR:#F8F9FD;}
+/*抬头升序排序样式*/
+.GH-SORT-ASC{float:right;width:13px;height:14px;background:url(../images/aigrid/sort_u.gif);background-repeat:no-repeat;}
+/*抬头降序排序样式*/
+.GH-SORT-DESC{float:right;width:13px;height:14px;background:url(../images/aigrid/sort_d.gif);background-repeat:no-repeat;}
+.GH-SORT{float:right;width:13px;height:14px;background:url(../images/aigrid/sort.gif);background-repeat:no-repeat;}
+.TABLE_TREE_BUTTON{width:16;height:16;font-size: 12px;border-RIGHT: #2C59AA 1px solid; PADDING-RIGHT: 2px; border-TOP: #2C59AA 1px solid; PADDING-LEFT: 2px; FONT-SIZE: 12px; FILTER: progid:DXImageTransform.Microsoft.Gradient(GradientType=0, StartColorStr=#ffffff, EndColorStr=#C3DAF5); border-LEFT: #2C59AA 1px solid; CURSOR: hand; COLOR: black; PADDING-TOP: 2px; border-BOTTOM: #2C59AA 1px solid;}
+input.table-page{border:1px solid #8A8A8A;background:url(../images/input.gif);width:2em;height:1.2em;text-align:center;font-size:9pt;position:relative;top:-1px;padding-top:0;}
+#page-first{width:16px;background:url(../images/aigrid/button_begin.gif) no-repeat left 1px;}
+#page-prev{width:16px;background:url(../images/aigrid/button_prv.gif) no-repeat left 1px;}
+#page-next{width:16px;background:url(../images/aigrid/button_next.gif) no-repeat left 1px;}
+#page-last{width:16px;background:url(../images/aigrid/button_end.gif) no-repeat left 1px;}
+#page-go{width:15px;background:url(../images/aigrid/button_go.gif) no-repeat left top;}

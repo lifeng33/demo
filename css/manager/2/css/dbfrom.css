@@ -1,0 +1,30 @@
+/* AIDBForm样式 */
+.dbform_disable_style{background: #F7F7F7;border-bottom:#CCCCCC 1px solid; border-left:#CCCCCC 1px solid; border-right:#CCCCCC  1px solid; border-top:#666666 1px solid;border-collapse: collapse}
+.dbform_inputfield_style{background: #FFFFFF;border-bottom:#CCCCCC 1px solid; border-left:#CCCCCC 1px solid; border-right:#CCCCCC  1px solid; border-top:#666666 1px solid;border-collapse: collapse}
+.dbform_lable_style{background: #F7F7F7;border-bottom:#CCCCCC 1px solid;border-left:#CCCCCC 1px solid; border-right:#CCCCCC 1px solid;border-top:#666666 1px solid;}
+.dbform_password_style{background: #FFFFFF;border-bottom:#CCCCCC 1px solid; border-left:#CCCCCC 1px solid; border-right:#CCCCCC  1px solid; border-top:#666666 1px solid;border-collapse: collapse}
+.dbform_checkbox_style{ border:0}
+.dbform_textarea_style{background: #FFFFFF;border-bottom:#CCCCCC 1px solid; border-left:#CCCCCC 1px solid; border-right:#CCCCCC  1px solid; border-top:#666666 1px solid;border-collapse: collapse}
+.DBForm_tdDis{background: #FFFFFF;height:20;border-top:1 solid #B1BAC2;border-left:1 solid #B1BAC2;border-right:1 solid white;border-bottom:1 solid white;background:#E7F4FE;padding-top:5;padding-left:5}
+.DBForm_tdTit{background: #FFFFFF;padding-right:0;padding-left:30;}
+
+/*----DBOpenWin Css-----*/
+.dbform_dbopenwin_editor_style{background: #FFFFFF;border-bottom:#CCCCCC 1px solid; border-left:#CCCCCC 1px solid; border-right:#CCCCCC  1px solid; border-top:#666666 1px solid;border-collapse: collapse}
+.dbform_dbopenwind_btn_style{background:url(../images/guangxiButton/button_bg.gif) repeat-x 0 0; height:20px; border:1 solid #8EB2E4; color:#000; padding:0 5px 2px 5px; vertical-align:middle;}
+
+
+/*----DBFile Css-----*/
+.dbform_dbfile_btn_style{background: #F7F7F7; border-bottom:#CCCCCC 1pt solid; border-left:#CCCCCC 1pt solid; border-right:#CCCCCC 1pt solid; border-top:#666666 1pt solid;}
+
+/**dblist相关*/
+.dbform_listbox_input_style{background: #FFFFFF;border-bottom:#CCCCCC 1px solid; border-left:#CCCCCC 1px solid; border-right:#CCCCCC  1px solid; border-top:#666666 1px solid;border-collapse: collapse}
+.dbform_listbox_list_style{background: #FFFFFF;border-bottom:#CCCCCC 1px solid; border-left:#CCCCCC 1px solid; border-right:#CCCCCC  1px solid; border-top:#666666 1px solid;border-collapse: collapse;}
+.dbform_listbox_input_disable_style{background: #F7F7F7;border-bottom:#CCCCCC 1px solid; border-left:#CCCCCC 1px solid; border-right:#CCCCCC  1px solid; border-top:#666666 1px solid;border-collapse: collapse;}
+.selectspan{background: #FFFFFF;height:20px;border:1px solid #D1E4EC;}
+
+/* DBListBox相关的css样式 */
+
+/*下拉框正常情况下的CSS样式*/
+.DBListBox_normal_style{background: #FFFFFF;border-bottom:#CCCCCC 1px solid;border-left:#CCCCCC 1px solid;border-right:#CCCCCC  1px solid;border-top:#666666 1px solid;border-collapse: collapse;}
+/*下拉框不可用的情况下的CSS样式*/
+.DBListBox_disabled_style{background: #F7F7F7;border-bottom:#CCCCCC 1px solid;border-left:#CCCCCC 1px solid;border-right:#CCCCCC  1px solid;border-top:#666666 1px solid;border-collapse: collapse;}

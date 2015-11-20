@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta content="always" name="referrer">
+	<meta name="theme-color" content="#2932e1">
+	<title>demo</title>
+	<link rel="stylesheet" type="text/css" href="./css/easyui/easyui.css">
+	<link rel="stylesheet" type="text/css" href="./css/easyui/icon.css">
+	<link rel="stylesheet" type="text/css" href="./css/easyui/demo.css">
+	<script type="text/javascript" src="./js/easyui/jquery-1.6.min.js"></script>
+	<script type="text/javascript" src="./js/easyui/jquery.easyui.min.js"></script>
+	<script type="text/javascript" src="./js/easyui/easyui-lang-zh_CN.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?&v=1.4"></script>
+	<script type="text/javascript" src="./js/my/demo.js"></script>
+	<style>
+		#nowTime{
+			color:red;
+			font-size:20pt;
+			line-height:54px;
+			display:inline;
+			float:left;
+		}
+		#remainderTime{
+			color:red;
+			font-size:20pt;
+			line-height:54px;
+			display:inline;
+			float:right;
+		}
+		#mapContainer{
+			width: 97%; 
+			height: 90%; 
+		}
+		table{
+			border:1px solid black;
+			margin:auto;
+			height:100%;
+			width:80%;
+		}
+		table tr{
+			border:1px solid black;
+			height:20%;
+		}
+		table tr td{
+			border:1px solid black;
+			width:20%;
+			text-align:center;
+		}
+	</style>
+</head>
+<body class="easyui-layout">
+    <div data-options="region:'north',title:'North Title',split:true" style="height:100px;padding:4px;text-align:center;background:#f2f4ff;">
+		<div id="nowTime"></div>
+		<iframe width="256" scrolling="no" height="54" marginheight="0" marginwidth="0" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=42&icon=1&num=3">
+		</iframe>
+		<div id="remainderTime"></div>
+	</div>   
+    <div data-options="region:'south',title:'South Title',split:true" style="height:100px;">
+	
+	</div>   
+    <div data-options="region:'east',iconCls:'icon-reload',title:'East',split:true" style="width:300px;padding:5px;">
+		<div>
+			地址：<input id="txtSearch" type="text" />
+			<input type="button" value="搜索" onclick="search()" />
+		</div>
+		</br>
+		<div style="border: 1px solid gray;" id="mapContainer"></div>
+	</div>   
+    <div data-options="region:'west',title:'West',split:true" style="width:200px;padding:5px;">
+		<div class="easyui-accordion">   
+			<div title="Title1" data-options="iconCls:'icon-save',selected:true" style="overflow:auto;padding:5px;text-align:center;"> 
+			</div>   
+			<div title="Title2" data-options="iconCls:'icon-reload'" style="padding:5px;text-align:center;">   
+			</div>   
+			<div title="Title3" style="padding:5px;text-align:center;">   
+			</div>   
+		</div>  
+	</div>   
+    <div data-options="region:'center',title:'center title'" style="padding:5px;background:#eee;">
+		<table>
+			<tr>
+				<td>
+					<a href="tencent://message/?Menu=yes&uin=352438201&Service=200&Site=JooIT.com&sigT=bc799de13f6b616996ffdda3884f3daf66572104e865057627b2bcdda186f3d2" title="联系李锋" target="_black">
+						<img style="border:0px;" src="./image/qq.jpg">
+					</a>
+				</td>
+				<td>
+					<a href="http://www.baidu.com" title="百度一下" target="_black">
+						<img style="border:0px;" src="./image/baidu.png">
+					</a>
+					
+				</td>
+				<td>
+				<a href="https://www.taobao.com/" title="淘宝" target="_black">
+						<img style="border:0px;" src="./image/taobao.jpg">
+					</a>
+				</td>
+				<td>
+				
+				</td>
+				<td>
+				
+				</td>
+			</tr>
+			<tr>
+				<td>
+				</td>
+				<td>
+				
+				</td>
+				<td>
+				
+				</td>
+				<td>
+				
+				</td>
+				<td>
+				
+				</td>
+			</tr>
+		</table>
+
+	</div>   
+  </body>
+</html>

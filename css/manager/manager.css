@@ -1,0 +1,134 @@
+@CHARSET "UTF-8";
+
+#TopTileDiv {
+	height: 26px;
+	width: 1002px;
+	background-image: url(../../images/manager/1/topTitle.jpg);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#BackTopTileDiv {
+	height: 26px;
+	width: 1002px;
+	background-image: url(../../images/manager/1/backTopTitle.jpg);
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#div_moveareas {
+	width: 1002px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.topTile_content {
+	margin-top: 4px;
+	margin-right: 20px;
+	color: #707070;
+	font-size: 14px;
+	float: left;
+}
+
+.topTile_img {
+	margin-left: 8px;
+	color: #707070;
+	font-size: 14px;
+	float: left;
+}
+
+.topTile_collection {
+	margin-top: 6px;
+	color: #707070;
+	font-size: 14px;
+	float: left;
+}
+
+.backTopTile_content {
+	margin-top: 4px;
+	margin-right: 20px;
+	color: #FFDD00;
+	font-size: 14px;
+	float: left;
+}
+
+.topTile_close {
+	margin-top: 4px;
+	margin-right: 4px;
+	color: #707070;
+	font-size: 14px;
+	float: left;
+}
+
+.knowledge_title {
+	margin-top: 4px;
+	margin-bottom: 4px;
+	margin-left: 10px;
+	margin-right: 10px;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.divbox_title_text_area {
+	width: 270px;
+	height: 26px;
+	line-height: 26px;
+	float: left;
+	cursor: move;
+	float: left;
+}
+
+.divbox_notic_more {
+	width: 34px;
+	height: 17px;
+	margin-top: 5px;
+	font-family: ����;
+	font-size: 14px;
+	background-repeat: no-repeat;
+	float: left;
+	cursor: pointer;
+}
+
+.divbox_title_text {
+	margin-left: 40px;
+	height: 26px;
+	line-height: 26px;
+	font-family: ����;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: left;
+}
+
+.divbox_content {
+	width: 299px;
+	margin-left: 10px;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	border-bottom: 1px dotted #D9D9D9;
+	height: 21px;
+	line-height: 20px;
+	overflow: hidden;
+}
+
+.content_ico {
+	width: 3px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url(../../images/manager/box_content_ico.png);
+	float: left;
+}
+
+.divbox_title {
+	height: 26px;
+	background-repeat: no-repeat;
+	background-position: left;
+}
+
+.content_text {
+	width: 288px;
+	margin-left: 5px;
+	float: left;
+	text-align: left;
+	overflow: hidden;
+}

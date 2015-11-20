@@ -1,0 +1,260 @@
+@charset "utf-8";
+ul li div.x-form-field-wrap{
+	display:inline-block;
+	*+display:inline;
+	_display:inline;
+}
+/*================================ 固定高度的块样式 ================== */
+/* 左侧内容块,表格 */
+.block_box{
+	display:block;
+	margin-bottom:5px;
+}
+/* ==============块内容--标题头部分================ */
+.box_title{
+	background:url(../images/grid/box_title_l.png) no-repeat 0 0;
+	height:34px;
+	overflow:hidden;
+}
+.box_title .box_title_r{
+	background:url(../images/grid/box_title_r.png) no-repeat 100% 0;
+	float:right;
+	height:34px;
+	width:22px;
+	margin-left:-3px;
+}
+.box_title .box_title_c{
+	background:url(../images/grid/box_title_c.png) repeat-x;
+	height:34px;
+	margin-left:22px;
+	margin-right:-3px;
+}
+.box_title .box_title_c h2{
+	color:#fff;
+	float:left;
+	font-weight:bold;
+	line-height:34px;
+	margin-right:8px;
+}
+.box_title .box_title_c h3{
+	color:#fff;
+	float:right;
+	line-height:24px;
+	margin-right:8px;
+	padding-top:6px;
+}
+.box_title .box_title_c h3 .title_more{
+	color:#fff;
+	float:right;
+	line-height:34px;
+	margin-right:8px;
+}
+.box_title .box_title_c p{
+	color:#fff;
+	float:left;
+	height:22px;
+	line-height:20px;
+	margin-right:8px;
+	margin-top:6px;
+}
+.box_title .box_title_c p span{
+	color:#ffb208;
+}
+.box_title .box_title_c p span a{
+	color:#ffb208;
+}
+
+
+/* 头部－当前状态 */
+.box_title_c p.box_title_cur{
+	color:#000000;
+}
+/* 块内容--中间主内容部分 */
+.box_main{
+	background-color:#e2f3ff;
+	border-left:2px solid #9ccbed;
+	border-right:2px solid #9ccbed;
+}
+/* 中间主内容--边框线================== 注意:此样式高度固定 ==========*/
+.box_main_border{
+	min-height:210px;
+	height:auto !important;
+	height:210px;
+	padding:3px;
+	margin:0 3px;
+}
+.min_height210{
+	min-height:210px;
+	height:auto !important;
+	height:210px;
+}
+.box_main_border p{
+	color:#064163;
+	line-height:22px;
+	text-indent:8px;
+}
+/* 中间主内容--左表格布局 */
+.box_main_table_layout{
+	clear:right;
+	float:left;
+	height:206px;
+	padding:1px;
+	width:65%;
+}
+.table_scrollbar{
+	scrollbar-face-color: #fefefe;
+	scrollbar-shadow-color: #c4cfcd;
+	scrollbar-highlight-color: #c4cfcd;
+	scrollbar-3dlight-color: #f6f6f6;
+	scrollbar-darkshadow-color: #f6f6f6;
+	scrollbar-track-color: #f6f6f6;
+	scrollbar-arrow-color: #c4cfcd;
+}
+
+/* 中间主内容--右图表布局 */
+.box_main_chart_layout{
+	clear:none;
+	*clear:right !important;
+	*clear:right;
+	float:left;
+	height:200px;
+	overflow:hidden;
+	width:33%;
+}
+.chart_choice{
+	clear:both;
+	display:block;
+}
+.chart_choice p{
+	color:#939393;
+	line-height:20px;
+}
+
+/* 块内容--底部脚部分 */
+.box_foot{
+	background:url(../images/grid/box_foot_l.png) no-repeat 0 0;
+	height:26px;
+	overflow:hidden;
+}
+.box_foot_r{
+	background:url(../images/grid/box_foot_r.png) no-repeat 100% 0;
+	float:right;
+	height:26px;
+	width:22px;
+	margin-left:-3px;
+}
+.box_foot_c{
+	background:url(../images/grid/box_foot_c.png) repeat-x;
+	height:26px;
+	margin-left:22px;
+}
+.box_foot_c h2{
+	color:#599dd3;
+	cursor:pointer;
+	float:left;
+	line-height:22px;
+}
+/* 脚部－当前状态 */
+.box_foot_cur h2{
+	color:#000;
+}
+/* 脚部－新建层样式 */
+.foot_add{
+	background-color:#fff;
+	border:1px solid #adbaff;
+	color:#60634e;
+	line-height:20px;
+	padding:5px 20px 5px 10px;
+	min-height:50px;
+	position:absolute;
+	top:200px;
+	left:400px;
+	z-index:999;
+}
+.foot_add p{
+	color:#60634e;
+	line-height:20px;
+}
+
+/*================================ 高度自适应的块样式 ================== */
+/* 简单块内容 */
+.ab_block_box{
+	background-color:#e2f3ff;
+	border:1px solid #9ccbed;
+	display:block;
+	padding:0;
+	margin-bottom:5px;
+}
+.ab_block_box_title{
+	background:#3c86c5 url(../images/grid/ab_block_box_title.jpg) repeat-x 0 0;
+	color:#fff;
+	line-height:18px;
+	min-height:20px;
+	height:auto !important;	
+	height:20px;
+	padding-top:5px;
+	text-indent:5px;
+}
+.ab_block_box_title h3{
+	color:#fff;
+	float:left;
+	line-height:20px;
+	min-height:20px;
+}
+.ab_block_box_border{
+	border:1px solid #b7ddf8;
+}
+.ab_block_box ul{
+	display:block;
+	padding:2px;
+	margin-bottom:2px;
+}
+
+.ab_block_box ul li{
+	float:left;
+	color:#333;
+	margin-right:10px;
+}
+.ab_block_box p{
+	color:#333;
+	line-height:22px;
+	text-indent:10px;
+}
+
+/* 图表展示 */
+.chart_show{}
+
+/* 图表两列布局 */
+.chart_two_layout{
+}
+.chart_layout_left{
+	clear:right;
+	float:left;
+	margin-right:3px;
+	width:49.5%;
+}
+.chart_layout_right{
+	clear:right;
+	float:left;
+	width:49.5%;
+}
+/* 3px像素差异 */
+.margin_right{
+	margin-right:3px;
+}
+.margin_left{
+	margin-left:3px;
+}
+/* 地图 margin-top 值 */
+.map_margin_top{
+	margin-top:0;
+	*margin-top:-15px !important;
+	*margin-top:-15px;
+}
+/* 地图弹出说明层 */
+.map_div{
+	background:#e2f3ff;
+	border:1px solid #9ccbed;
+	color:#333;
+	overflow:hidden;
+}

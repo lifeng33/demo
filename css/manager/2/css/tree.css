@@ -1,0 +1,20 @@
+/******tree*******/
+
+.x-panel,.x-panel-body,.x-panel-bwrap{
+	border:none !important;
+	background:#e8f0f7;
+}
+.x-tree-node a span{
+	color:#97aaaa;
+}
+.x-panel-header{
+	background-image:url(../images/window/top-bottom2.png) !important;
+	border:none !important;
+	border-bottom:1px solid #7e7e7e !important;
+}
+.x-panel-header-text{
+	color:#ffb208;
+}
+.x-tree-selected{background-color:#565656 !important;border:none !important;}
+
+.x-tree-node-over{background-color:#373737 !important;border:none !important;}

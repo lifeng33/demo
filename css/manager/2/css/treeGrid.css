@@ -1,0 +1,30 @@
+/**********treeGrid**********/
+.x-tree-node .x-tree-node-over{
+	background-color:#9ccbed !important;
+}
+.x-tree-node .x-tree-selected{
+	background-color:#9ccbed !important;
+}
+.x-treegrid-root-node{
+	scrollbar-face-color: #171717;
+	scrollbar-shadow-color: #6c6c6c;
+	scrollbar-highlight-color: #6c6c6c;
+	scrollbar-3dlight-color: #171717;
+	scrollbar-darkshadow-color: #171717;
+	scrollbar-track-color: #525252;
+	scrollbar-arrow-color: #c4cfcd;
+	background:#373737;
+}
+.x-treegrid-col{
+	border-bottom: 1px solid #5e5e5e;
+	border-right: 1px solid #5e5e5e;
+}
+.x-treegrid-root-table{
+ 	border:none;
+}
+.x-tree-node a span{
+	color:#333333;
+}
+.x-treegrid-text{
+	color:#848484;
+}

@@ -1,0 +1,542 @@
+﻿/* CSS Document */
+/*CSS reset*/
+html {
+	background: #fff;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img {
+	border: 0;
+}
+img {
+	vertical-align:middle;
+}
+address, caption, cite, code, dfn, em, var, optgroup {
+	font-style: inherit;
+	font-weight: inherit;
+}
+del, ins {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+caption {
+	text-align: left;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+sup {
+	vertical-align: baseline;
+}
+sub {
+	vertical-align: baseline;
+}
+legend {
+	color: #000;
+}
+input, button, textarea, select, optgroup, option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+input, button, textarea, select {
+*font-size:100%;
+	vertical-align:middle;
+}
+dfn {
+	vertical-align:top;
+	font-size:12px;
+	font-weight:bold;
+}
+/*浮动*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+/*定位*/
+.tl, .t_l {
+	text-align: left;
+}
+.tc, .t_c {
+	text-align: center;
+}
+.tr, .t_r {
+	text-align: right;
+}
+.bc {
+	margin-left: 0;
+	margin-right: 0;
+}
+.fl, .f_l {
+	float: left;
+	display: inline;
+}
+.fr, .f_r {
+	float: right;
+	display: inline;
+}
+.vm {
+	vertical-align: middle;
+}
+.pr {
+	position: relative;
+}
+.pa {
+	position: absolute;
+}
+.abs-right {
+	position: absolute;
+	right: 0;
+}
+.zoom {
+	zoom:1;
+}
+.hidden {
+	visibility: hidden;
+}
+.none, .dis_none {
+	display: none;
+}
+/*边距*/
+.m10 {
+	margin: 30px;
+}
+.mt10 {
+	margin-top: 30px;
+}
+.mb10 {
+	margin-bottom: 30px;
+}
+.ml10 {
+	margin-left: 30px;
+}
+.mr10 {
+	margin-right: 30px;
+}
+/*layout style*/
+body {
+	font:12px/1.5 Arial, Helvetica, sans-serif;
+}
+a {
+	color:#0071ad;
+	text-decoration:none;
+}
+a:hover {
+	color:#f60;
+	text-decoration:none;
+}
+.pagecontent {
+	padding:10px;
+	width:700px;
+	margin:0 auto;
+}
+.region {
+}
+.region .regionttl {
+	border:1px solid #ccc;
+	background:url(../images/manager/modelbg.jpg) left bottom repeat-x;
+	height:30px;
+	line-height:30px;
+	position:relative;
+}
+.region .regionttl span.title {
+	position:absolute;
+	left:10px;
+	font-weight:bold;
+}
+.region .regionttl a.more {
+	position:absolute;
+	right:10px;
+}
+.region .regioncnt {
+	border:1px solid #ccc;
+	border-top:0;
+	padding:8px;
+}
+
+.schedulist {
+	height:240px;
+	overflow:hidden;
+}
+.schedulist li {
+	width:100%;
+	display:inline-block;
+	height:24px;
+	line-height:24px;
+	background:url(../images/manager/squaredot.gif) left center no-repeat;
+	text-indent:8px;
+	overflow:hidden;
+}
+.schedulist li a {
+	color:#333;
+}
+.schedulist li a:hover {
+	color:#f60;
+}
+
+.meslist {
+	height:290px;
+	overflow:hidden;
+}
+.meslist li {
+	width:100%;
+	display:inline-block;
+	height:28px;
+	line-height:28px;
+	background:url(../images/manager/squaredot.gif) left center no-repeat;
+	text-indent:8px;
+	overflow:hidden;
+	border-bottom:1px dashed #ccc;
+}
+.meslist li a {
+	color:#333;
+}
+.meslist li a:hover {
+	color:#f60;
+}
+
+.canlendarlist {
+	height:240px;
+	overflow:hidden;
+}
+.canlendarlist li {
+	width:100%;
+	display:inline-block;
+	height:24px;
+	line-height:24px;
+	background:url(../images/manager/squaredot.gif) left center no-repeat;
+	overflow:hidden;
+	text-indent:8px;
+	_text-indent:0;
+}
+.canlendarlist li a {
+	_display:inline-block;
+	_height:24px;
+	_line-height:24px;
+	color:#333;
+	_margin-left:8px;
+	_overflow:hidden;
+}
+.canlendarlist li a:hover {
+	color:#f60;
+}
+.canlendarlist li span {
+	color:#999;
+	font-family:Arial;
+	font-size:11px;
+}
+
+.mySchedules{ width:300px;}
+.myTodo{ width:300px;}
+.myMessage{ width:270px;}
+
+/*---------------------canlendar---------------------------------*/
+.canlendar {
+	width:330px;
+	font-size:12px;
+	position:relative;
+}
+.canlendar a{ text-decoration:none; font-family:Verdana, Geneva, sans-serif;}
+.canlendar a:hover{ text-decoration:none;}
+.canlendar .canlendarttl {
+	background:url(../images/manager/modelbg.jpg) left bottom repeat-x;
+	height:30px;
+	line-height:30px;
+	position:relative;
+	border:1px solid #ccc;
+	border-bottom:0;
+}
+.canlendar .canlendarttl span.title {
+	display:inline-block;
+	position:absolute;
+	left:10px;
+	font-weight:bold;
+	background:url(../images/manager/canlendarimg.gif) left center no-repeat;
+	padding-left:20px;
+	font-size:14px;
+}
+.yearcontrl, .monthcontrl {
+	position:absolute;
+	top:5px;
+}
+.yearcontrl {
+	left:100px;
+}
+.monthcontrl {
+	right:10px;
+}
+.yearcontrl li, .monthcontrl li {
+	display:inline-block;
+	height:20px;
+	line-height:20px;
+}
+.yearcontrl .prevyear, .yearcontrl .nextyear, .monthcontrl .prevmonth, .monthcontrl .nextmonth {
+	width:14px;
+	float:left;
+	background:url(../images/manager/canlendarnavigation.png) no-repeat;
+	cursor:pointer;
+}
+.yearcontrl .prevyear {
+	background-position:0 0;
+}
+.yearcontrl .nextyear {
+	background-position:0 -20px;
+}
+.monthcontrl .prevmonth {
+	background-position:0 -40px;
+}
+.monthcontrl .nextmonth {
+	background-position:0 -60px;
+}
+.yearcontrl .syear, .monthcontrl .smonth {
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	text-align:center;
+	float:left;
+	cursor:pointer;
+	z-index:2;
+}
+.yearcontrl .syear {
+	width:80px;
+}
+.monthcontrl .smonth {
+	width:60px;
+}
+.syearlist, .smonthlist {
+	background: #fff;
+	border: 1px solid #aaa;
+	height: 140px;
+	overflow-y: auto;
+	padding: 2px;
+	position: absolute;
+	top:25px;
+	width: 60px;
+	z-index: 1;
+}
+.syearlist {
+	width:73px;
+	left:114px;
+}
+.smonthlist {
+	width:60px;
+	right:21px;
+}
+.syearlist li, .smonthlist li {
+	border-bottom: 1px dashed #94BDD7;
+	height: 24px;
+	line-height: 24px;
+	text-align: center;
+}
+.syearlist li a, .smonthlist li a {
+	color: #333333;
+	display: inline-block;
+	height: 24px;
+	width: 100%;
+}
+.syearlist li a:hover, .smonthlist li a:hover {
+	color: #f60;
+}
+.weeklist {
+	width:100%;
+	height:24px;
+	line-height:24px;
+	background:#36373b;
+	color:#fff;
+}
+.weeklist li {
+	display:inline-block;
+	float:left;
+	width:47px;
+	text-align:center;
+}
+.weeklist li.sunday {
+	width:46px;
+	color:#f60;
+}
+.daylist{
+	border:1px solid #ccc;
+	border-right:0;
+	border-bottom:0;
+	background:#fff;
+}
+.daylist li{
+	display:inline-block;
+	float:left;
+	width:46px;
+	height:46px;
+	line-height:46px;
+	text-align:center;
+	font-size:14px;
+	font-weight:bold;
+	border-right:1px solid #ccc;
+	border-bottom:1px solid #ccc;
+}
+.daylist li a{
+	display:inline-block;
+	width:46px;
+	height:46px;
+}
+.daylist li.unday{
+	color:#999;
+	font-weight:normal;
+	cursor:default;
+}
+.daylist li.day a{
+	color:#333;
+	cursor:default;
+}
+.daylist li.tday{/*今天*/
+	background:#239cdc;
+}
+.daylist li.tday a{
+	color:#fff;
+}
+.daylist li.todo{/*有事待办*/
+	background:url(../images/manager/canlenderdo.gif) #fff no-repeat;
+}
+.daylist li.todo.tday{/*今天有事待办*/
+	background:url(../images/manager/canlenderdo.gif) #239cdc no-repeat;
+}
+.daylist li.todo a{
+	cursor: pointer;
+}
+.daylist li.todo.curtodo{
+	background:#ffc600;
+}
+.daylist li.tday.todo.curtodo{
+	background:#ffc600;
+}
+.daylist li.curtodo a{
+	cursor:default;
+}
+
+/*--------------------------matter style-----------------------------------*/
+.matterBox{
+	width:260px;
+	height:283px;
+	background:#36373b;
+	position:absolute;
+	left:330px;
+	top:55px;
+	color:#fff;
+	z-index:1000;
+}
+.matterBox .matterttl{
+	height:26px;
+	line-height:26px;
+	font-weight:bold;
+	border-bottom:1px solid #999;
+	position:relative;
+}
+.matterBox .matterttl span{
+	position:absolute;
+	left:10px;
+}
+.matterBox .matterttl a{
+	display:inline-block;
+	width:26px;
+	height:26px;
+	position:absolute;
+	right:0;
+	background:#666;
+	color:#fff;
+	text-align:center;
+	text-decoration:none;
+	font-weight:normal;
+	font-family:Verdana, Geneva, sans-serif;
+}
+.matterBox .matterttl a:hover{
+	background:#f60;
+}
+.mattercnt{
+	width:100%;
+	height:256px;
+	overflow:hidden;
+}
+.mattercnt .mlist{
+	width:240px;
+	height:236px;
+	margin:10px;
+	overflow:hidden;
+	overflow-y:auto;
+}
+.mattercnt .mlist li{
+	display:inline-block;
+	width:100%;
+	height:22px;
+	line-height:22px;
+	background:url(../images/manager/squaredot.gif) 1px center no-repeat;
+	border-bottom:1px dotted #666;
+	text-indent:5px;
+}
+.mattercnt .mlist li a{
+	display:inline-block;
+	width:100%;
+	height:22px;
+	text-decoration:none;
+	color:#239cdc;
+	cursor:pointer;
+}
+.mattercnt .mlist li a:hover{
+	color:#f60;
+}
+.mattercnt .mattertext{
+	width:100%;
+	height:256px;
+}
+.mattercnt .mattertext .mtitle{
+	height:22px;
+	line-height:22px;
+	background:#555;
+	text-align:center;
+	font-weight:bold;
+}
+.mattercnt .mattertext .mtext{
+	line-height:22px;
+	width:240px;
+	height:190px;
+	margin:5px auto;
+	overflow:hidden;
+	overflow-y:auto;
+}
+.mattercnt .mattertext .mcontrl{
+	width:100%;
+	height:26px;
+}
+.mattercnt .mattertext .mcontrl a.rebackBtn{
+	display:inline-block;
+	height:22px;
+	line-height:22px;
+	color:#fff;
+	padding:0 6px;
+	background:#239CDC;
+	float:right;
+	margin-right:10px;
+}
+.mattercnt .mattertext .mcontrl a.rebackBtn:hover{
+	background:#f60;
+}
+

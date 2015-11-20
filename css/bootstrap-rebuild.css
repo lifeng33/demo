@@ -1,0 +1,20 @@
+@charset "UTF-8";
+.panel {
+    margin-bottom: 5px;
+}
+
+.panel-body {
+    padding: 5px;
+}
+
+table.table th, table.table td {
+    white-space: nowrap;
+}
+
+.tooltip {
+    white-space: normal;
+}
+
+.tooltip-inner {
+    text-align: left;
+}

@@ -1,0 +1,105 @@
+@charset "utf-8";
+/* 评论块 */
+.msgBox{
+	border-bottom: 1px dashed #525252;
+	padding-bottom:10px;
+	padding-top:10px;
+	margin:0 auto;
+	width:96%;
+}
+/* 左侧评论人信息 */
+.userInfo{
+	color:#889DB6;
+	float:left;
+	padding-right:3px;
+	width:12%;
+}
+/* 评论人 */
+.userName{
+	font-size:12px;
+	line-height:22px;
+	font-weight:bold;
+}
+/* 评论时间 */
+.userTime{
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:24px;
+}
+/* 右侧评论内容块 */
+.msgCnt{
+	border-left:1px solid #adbaff;
+	float:right;
+	padding-left:5px;
+	width:87%;	
+}
+/* 右侧评论文字 */
+.msgCnt p{
+	color:#003b75;
+	font-size:12px;
+	line-height:22px;
+	text-indent:0;
+}
+/* 评论 回复和删除 按钮 */
+.funBox{
+	color:#666;
+	margin:5px auto 5px;
+}
+.funBox a{
+	color:#889DB6;
+}
+.funBox a:hover{
+	color:#889DB6;
+	text-decoration:underline;
+}
+/* 已回复的文字内容 */
+.replyText{
+	background-color:#e2f3ff;
+	border:1px solid #9ccbed;
+	color:#666;
+	padding:3px;
+	margin-bottom:3px;
+	line-height:22px;
+}
+/* 左侧评论人信息 */
+.replyInfo{
+	color:#889DB6;
+	float:left;
+	padding-right:3px;
+	width:15%;
+}
+/* 评论人 */
+.replyName{
+	color:#478eca;
+	font-size:12px;
+	line-height:22px;
+	font-weight:bold;
+}
+/* 评论时间 */
+.replyTime{
+	color:#478eca;
+	font-family:Arial, Helvetica, sans-serif;
+	line-height:24px;
+}
+/* 评论文字 */
+.replyFonts{
+	color:#797979;
+	font-size:12px;
+	line-height:22px;
+	float:left;
+	padding-left:4px;
+	width:96%;
+}
+/* 回复文本区域 */
+.reply{
+	margin:3px;
+	width:400px;
+}
+.replyTextarea{
+	border:1px solid #bcd4e7;
+	color:#787878;
+	height:50px;
+	padding-left:3px;
+	padding-right:3px;
+	line-height:20px;
+	width:400px;
+}

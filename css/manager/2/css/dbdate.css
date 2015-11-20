@@ -1,0 +1,41 @@
+/**dbdate,dbdatetime样式**/
+.dbform_dbdate_span_style{font-family: "Arial";border-bottom:#CCCCCC 1px solid; border-left: #CCCCCC 1px solid; border-right:  #CCCCCC  1px solid; border-top: #666666 1px solid;border-collapse: collapse}
+
+/**dbdate输入框样式*/
+.dbform_dbdate_input_style{font-family: "Arial";background: #FFFFFF;border-bottom:#CCCCCC 1px solid; border-left:#CCCCCC 1px solid; border-right:#CCCCCC  0px solid; border-top:#666666 1px solid;border-collapse: collapse}
+
+/*dbdate按钮样式*/
+.dbform_dbdate_btn_style{width:20px;height:20px;cursor:pointer;background:url(../images/tool/calendar.gif) no-repeat;border:0;}
+
+/* 控制单元格显示格式 */
+.DBDate-CalHead {cursor:default; text-align:center; font:bold arial; color:white;}
+.DBDate-CalCell {cursor:hand; text-align:center;}
+.DBDate-CellAnchor {text-decoration:none; font:arial;}
+
+/* 控制星期显示格式*/
+.DBDate-WeekHead {cursor:default; font:arial; text-align:center; color:#ddddea;}
+.DBDate-WeekCol {cursor:default; font:bold arial; text-align:center; color:gray; background:#ddddea;}
+
+/* 月份导航 */
+.DBDate-MonthNav {vertical-align:middle; height:22; width:18; font:fixedsys; color:black;}
+
+/* 日历 */
+.DBDate-CalTop {text-align:center;}
+.DBDate-CalMiddle {}
+.DBDate-CalBottom {text-align:center;}
+
+/* 标题 */
+.DBDate-CalTitle {vertical-align:middle; font:arial; color:black;}
+
+/* 今天显示 */
+.DBDate-Today {text-decoration:none; font:bold sans-serif; color:black;}
+A.DBDate-Today:hover {color:yellow}
+A.DBDate-Today:active {color:red}
+
+/*只显示时分秒样式*/
+.m_frameborder {border: 1px solid #A5A5A5;background: #FFFFFF;width: 130px;height: 22px;margin:0px;padding:0px;}
+.m_up{background:url(../images/tool/up.gif) no-repeat;background-position:0 0px;cursor:pointer;width:19px;height:10px;margin:1px;font-size:0px;color:#C7C7C7;}
+.m_up:hover{background-position:-19px 0px;}
+.m_down{background:url(../images/tool/down.gif) no-repeat;background-position:0 0px;cursor:pointer;width:19px;height:10px;margin:1px;font-size:0px;color:#C7C7C7;}
+.m_down:hover{background-position:-19px 0px;}
+.m_input {width: 40px;border:0px;text-align: center;background: #FFFFFF;}

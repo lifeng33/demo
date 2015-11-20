@@ -1,0 +1,84 @@
+.GuidePageFirstbg
+{
+    background-image: url(../../images/manager/GuidePageFirstBg.png);
+    background-repeat: no-repeat;
+}
+#GuidePageFirst
+{
+    background-color: #000000;
+    position: absolute;
+    display: none;
+}
+#GuidePageFirstTop
+{
+    height: 273px;
+    background-position: 0px 0px;
+    position: absolute;
+    top: 0px;
+}
+#GuidePageFirstCommon
+{
+    height: 225px;
+    width: 411px;
+    background-position: -4px -410px;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+#GuidePageFirstNextButton
+{
+    width: 94px;
+    height: 94px;
+    background-position: -1022px -522px;
+    position: absolute;
+    bottom: 18px;
+    right: 30px;
+    cursor: pointer;
+}
+.GuidePageSecondbg
+{
+    background-image: url(../../images/manager/GuidePageSecondBg.png);
+    background-repeat: no-repeat;
+}
+#GuidePageSecond
+{
+    background-color: #000000;
+    position: absolute;
+    display: none;
+}
+#GuidePageSecondTab
+{
+    width: 365px;
+    height: 139px;
+    background-position: -172px -79px;
+    position: absolute;
+    top: 79px;
+    left: 173px;
+}
+#GuidePageSecondRight
+{
+    width: 338px;
+    height: 352px;
+    background-position: -811px 0px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+#GuidePageSecondLeft
+{
+    width: 202px;
+    height: 80px;
+    background-position: -176px -298px;
+    position: absolute;
+    left: 176px;
+}
+#GuidePageSecondFinishButton
+{
+    width: 102px;
+    height: 102px;
+    background-position: -1019px -519px;
+    position: absolute;
+    bottom: 15px;
+    right: 27px;
+    cursor: pointer;
+}

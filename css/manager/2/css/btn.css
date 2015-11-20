@@ -1,0 +1,149 @@
+@charset "utf-8";
+/**========== 宽度自适应按钮 button =========**/
+a.common_btn{
+	background:url(../images/pic/btn_bg_l.gif) no-repeat;
+	display:block;
+	float:left;
+	font-size:12px;
+	line-height:20px;
+	height:20px;
+	overflow:hidden;
+	text-decoration:none;
+	margin:5px;
+}
+a.common_btn:hover{
+	background:url(../images/pic/btn_hover_bg_l.gif) no-repeat;
+}
+a.common_btn span{
+	background:url(../images/pic/btn_bg_r.gif) no-repeat top right;	
+	color:#135d8a;
+	display:block;
+	font-weight:normal;
+	line-height:20px;
+	padding-left:10px;
+	padding-right:10px;
+	text-align:center;
+	word-break:keep-all;	
+}
+
+a.common_btn:hover span{
+	background:url(../images/pic/btn_hover_bg_r.gif) no-repeat top right;
+	color:#000962;
+}
+
+
+/* 纬度筛选按钮 */
+.latitude_ico{
+	background:url(../images/pic/wei_zhi_ico.gif) no-repeat;
+	cursor:pointer;
+	height:90px;
+	overflow:hidden;
+	position:absolute;
+	left:0;
+	top:140px;
+	width:24px;
+	z-index:9999;
+}
+/* 纬度筛选展开样式 */
+.latitude_block{
+	background:#95BCDD;
+	border:1px solid #60634e;
+	color:#c1c1c1;
+	width:100%;
+	height:100%;
+}
+
+.latitude_block ul{
+	list-style-type:none;
+}
+
+.latitude_block ul span{
+	color:#444;
+}
+
+.latitude_block li{
+	color:#999999;
+	line-height:24px;
+	padding-top:2px;
+	padding-bottom:2px;
+}
+/* 纬度筛选关闭按钮 */
+.latitude_block_close{
+	background:url(../images/main/close_btn.gif) no-repeat 0 0;
+	cursor:pointer;
+	display:block;
+	float:right;
+	height:14px;
+	width:14px;
+}
+.latitude_block p{
+	color:#c1c1c1;
+	line-height:22px;
+}
+.latitude_block p span{
+	color:#c1c1c1;
+	line-height:22px;
+	text-align:right;
+	margin-right:2px;
+	width:100px;
+}
+.latitude_block_btn{
+	margin-left:37%;
+	width:100px;
+}
+
+
+/*====================查询图标按钮
+.searchBtn a{
+	background-image: url(images/searchbutton.gif);
+	height: 21px;
+	width: 22px;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+	display:block;
+}
+.searchBtn a:hover{
+	background-image: url(images/searchbutton.gif);
+	background-position:0 -22px;
+}
+=================-*/
+
+/* 图表 图标样式 */
+.chart_icon{
+	display:block;
+	height:20px;
+	margin:3px 10px 3px auto;
+}
+.chart_icon ul{
+	float:right;
+}
+.chart_icon ul li{
+	cursor:pointer;
+	display:block;
+	float:right;
+	height:20px;
+	width:20px;
+}
+/* 曲线图标 */
+.chart_line{
+	background:url(../images/pic/chart_line.gif) no-repeat 0 0;
+}
+
+.chart_line_cur{
+	background:url(../images/pic/chart_line.gif) no-repeat 0 -20px;
+}
+/* 柱状图标 */
+.chart_bar{
+	background:url(../images/pic/chart_bar.gif) no-repeat 0 0;
+}
+.chart_bar_cur{
+	background:url(../images/pic/chart_bar.gif) no-repeat 0 -20px;
+}
+/* 表格图标 */
+.chart_table{
+	background:url(../images/pic/chart_table.gif) no-repeat 0 0;
+}
+.chart_table_cur{
+	background:url(../images/pic/chart_table.gif) no-repeat 0 -20px;
+}
+

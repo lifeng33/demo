@@ -1,0 +1,118 @@
+/*Tab标签页样式*/
+
+.poLeft{background:url(../images/aiportalTab/esop_leftic.gif) no-repeat;width:5px;height:34px;}
+.poCenter{background:url(../images/aiportalTab/esop_righttu.gif) no-repeat;width:25px;height:34px;position:absolute;top:0;right:-4px;z-index:1000;}
+.poRight{background:url(../images/aiportalTab/esop_rightic.gif) no-repeat;width:5px;height:34px;}
+OL LI {margin: 10px}
+#con {margin: 0px; overflow:hidden; width:100%; height:100%}
+#tags {background: url(../images/aiportalTab/item_bg.gif) repeat-x bottom;padding:1px 0 0 8px; margin: 0px; width:100%; height:24px}
+#tags LI {background: url(../images/aiportalTab/item_bg.gif) repeat-x bottom; float: left; margin-right: 1px; list-style-type: none; height: 24px}
+#tags LI A {padding:0px 12px 0px 12px;background: url(../images/aiportalTab/item_bg.gif) repeat-x bottom; float: left;color: #666666;line-height: 24px;height: 24px; text-decoration: none}
+#tags LI.emptyTag {background: none transparent scroll repeat 0% 0%; width: 4px}
+#tags LI.selectTag {background:url(../images/aiportalTab/tagleft2.gif) left top  no-repeat; position: relative; height: 24px}
+#tags LI.selectTag A {background:url(../images/aiportalTab/tagright2.gif) right top  no-repeat; color: #336699; line-height: 24px; height: 24px}
+#tagContent {background: #FFFFFF;width:100%;}
+.tagContent {DISPLAY: none;background: #FFFFFF;width:100%;height:100%}
+#tagContent div.selectTag {DISPLAY: block}
+
+/* tab_h页面样式 */
+/*左边滚动按钮样式*/
+.tab_h_scrollleftbutton{background:url(../images/aiportalTab/left.gif) left top  no-repeat;width:12px;height:24px;cursor:hand;margin-left:-1px;}
+.tab_h_scrollleftbutton_hover{background:url(../images/aiportalTab/left.gif) left top  no-repeat;background-position:-11px 0px;width:12px;height:24px;cursor:hand;margin-left:-1px;}
+.tab_h_scrollleftendbutton{background:url(../images/aiportalTab/left_end.gif) left top  no-repeat;width:12px;height:24px;cursor:hand;}
+.tab_h_scrollleftendbutton_hover{background:url(../images/aiportalTab/left_end.gif) left top  no-repeat;background-position:-11px 0px;width:12px;height:24px;cursor:hand;}
+/*右边滚动按钮样式*/
+.tab_h_scrollrightbutton{background:url(../images/aiportalTab/right.gif) left top  no-repeat;width:12px;height:24px;cursor:hand;margin-left:-1px;}
+.tab_h_scrollrightbutton_hover{background:url(../images/aiportalTab/right.gif) left top  no-repeat;background-position:-11px 0px;width:12px;height:24px;cursor:hand;margin-left:-1px;}
+.tab_h_scrollrightenebutton{background:url(../images/aiportalTab/right_end.gif) left top  no-repeat;width:12px;height:24px;cursor:hand;margin-left:-1px;}
+.tab_h_scrollrightendbutton_hover{background:url(../images/aiportalTab/right_end.gif) left top  no-repeat;background-position:-11px 0px;width:12px;height:24px;cursor:hand;margin-left:-1px;}
+/*整体标签样式*/
+.tab_h_item_style{position:relative;z-index:1000;background:url(../images/aiportalTab/esop_bottombg.gif) repeat-x; width:100%; height:31px;margin-top:0;}
+/*TITLE样式含左边的图片*/
+.tab_h_title_style{position:relative;z-index:1000;padding-left:15px;color:#15428B;float:left;height:25px;z-index:100;margin-top:5px;background:url(../images/aiportalTab/esop_tableft1.jpg) left bottom  no-repeat;}
+/*TITLE样式含右边的图片*/
+.tab_h_title_style a{padding-right:15px;float:right;height:25px;line-height:26px;background:url(../images/aiportalTab/esop_tabright1.jpg) right bottom  no-repeat;}
+.tab_h_title_style_current{position:relative;z-index:1000;padding-left:15px;color:#15428B;float:left;white-space:nowrap;height:25px;z-index:100;margin-top:4px;background:url(../images/aiportalTab/esop_tableft.jpg) left bottom  no-repeat;}
+
+.TAB_H_ITEM_STYLE td nobr{zoom:1;}
+ 
+
+.tab_h_title_style_current a{position:relative;z-index:1000;padding-right:15px;float:right;height:25px;background:url(../images/aiportalTab/esop_tabright.jpg) right bottom  no-repeat;}
+/*聚焦当前TITLE样式含左边的图片*/
+.tab_h_not_focus .tab_h_title_style_current{position:relative;z-index:1000;padding-left:15px;color:#15428B;float:left;white-space:nowrap;height:25px;z-index:100;margin-top:5px;background:url(../images/aiportalTab/esop_tableft.jpg) left bottom  no-repeat;}
+/*聚焦当前TITLE样式含右边的图片*/
+.tab_h_not_focus .tab_h_title_style_current a{position:relative;z-index:1000;padding-right:15px;float:right;height:25px;font-weight:bold;background:url(../images/aiportalTab/esop_tabright.jpg) right bottom  no-repeat;}
+/*鼠标触发TITLE样式含左边的图片*/
+.tab_h_title_style_hover{padding-left:15px;color:#15428B;float:left;height:25px;z-index:100;margin-top:5px;background:url(../images/aiportalTab/esop_tableft1.jpg) left bottom  no-repeat;}
+/*鼠标触发TITLE样式含右边的图片*/
+.tab_h_title_style_hover a{padding-right:15px;float:right;height:25px;background:url(../images/aiportalTab/esop_tabright1.jpg) right bottom  no-repeat;}
+.tab_h_not_focus .tab_h_title_style_current a .tab_h_title_font_style{font-weight:bold;}
+.tab_h_title_style_current a .tab_h_title_font_style{font-weight:bold;}
+
+.tab_h_title_style_current tr{height:26px;}
+.tab_h_title_style tr{height:26px;}
+.tab_h_title_style_hover tr{height:26px;}
+/*TITLE的字体样式*/
+.tab_h_title_font_style{color:#336699;text-align:center;cursor: hand;font-family:SimSun;font-size:12px;white-space:nowrap;}
+/*主体部分的样式*/
+.tab_h_main_tab {border:0 solid #1D82DE;border-width:0 0 0 0;background:none;}
+.tab_h_main_tab iframe{top:31px !important;}
+/*关闭按钮样式*/
+.tab_item_close_button{width:11px;height:13px;cursor:hand;float:right;background:url(../images/aiportalTab/esop_close.png) no-repeat;margin:5px 0 0 3px;}
+.tab_item_close_button_current{width:11px;height:13px;cursor:hand;float:right;background:url(../images/aiportalTab/esop_close.png) no-repeat;margin:5px 0 0 3px;}
+.tab_item_close_button_hover{width:11px;height:13px;cursor:hand;float:right;background:url(../images/aiportalTab/esop_close.png) no-repeat;margin:5px 0 0 3px;}
+
+/* tab_b页面样式 */
+/*左边滚动按钮样式*/
+.tab_b_scrollleftbutton{background:url(../images/aiportalTab/left_b.gif) left bottom  no-repeat;width:12px;height:23px;cursor:hand;margin-left:-1px;}
+.tab_b_scrollleftbutton_hover{background:url(../images/aiportalTab/left_b.gif) left bottom  no-repeat;background-position:-11px 0px;width:12px;height:23px;cursor:hand;margin-left:-1px;}
+.tab_b_scrollleftendbutton{background:url(../images/aiportalTab/left_b_end.gif) left bottom  no-repeat;width:12px;height:23px;cursor:hand;}
+.tab_b_scrollleftendbutton_hover{background:url(../images/aiportalTab/left_b_end.gif) left bottom  no-repeat;background-position:-11px 0px;width:12px;height:23px;cursor:hand;}
+/*右边滚动按钮样式*/
+.tab_b_scrollrightbutton{background:url(../images/aiportalTab/right_b.gif) left bottom  no-repeat;width:12px;height:23px;cursor:hand;margin-left:-1px;}
+.tab_b_scrollrightbutton_hover{background:url(../images/aiportalTab/right_b.gif) left bottom  no-repeat;background-position:-11px 0px;width:12px;height:23px;cursor:hand;margin-left:-1px;}
+.tab_b_scrollrightendbutton{background:url(../images/aiportalTab/right_b_end.gif) left bottom  no-repeat;width:12px;height:23px;cursor:hand;margin-left:-1px;}
+.tab_b_scrollrightendbutton_hover{background:url(../images/aiportalTab/right_b_end.gif) left bottom  no-repeat;background-position:-11px 0px;width:12px;height:23px;cursor:hand;margin-left:-1px;}
+/*整体标签样式*/
+.tab_b_item_style{background: url(../images/aiportalTab/item_bg_b.gif) repeat-x top; width:100%; height:23px;}
+/*TITLE样式含左边的图片*/
+.tab_b_title_style{padding-left:10px;color:#15428B;float:left;height:23px;z-index:100;margin:0;background:url(../images/aiportalTab/item_bg_b.gif) repeat-x top;}
+/*TITLE样式含右边的图片*/
+.tab_b_title_style a{padding-right:10px;float:right;height:23px;background:url(../images/aiportalTab/item_bg_b.gif) repeat-x top;}
+/*聚焦当前TITLE样式含左边的图片*/
+.tab_b_title_style_current{padding-left:10px;color:#15428B;float:left;height:23px;z-index:100;margin:0;background:url(../images/aiportalTab/tagleft2_b.gif) left bottom  no-repeat;}
+/*聚焦当前TITLE样式含右边的图片*/
+.tab_b_title_style_current a{padding-right:10px;float:right;height:23px;background:url(../images/aiportalTab/tagright2_b.gif) right bottom  no-repeat;}
+/*鼠标触发TITLE样式含左边的图片*/
+.tab_b_title_style_hover{padding-left:10px;color:#000000;float:left;height:23px;z-index:100;margin:0;background:url(../images/aiportalTab/tagleft3_b.gif) left bottom  no-repeat;}
+/*鼠标触发TITLE样式含右边的图片*/
+.tab_b_title_style_hover a{padding-right:10px;float:right;height:23px;background:url(../images/aiportalTab/tagright3_b.gif) right bottom  no-repeat;}
+/*title的字体样式*/
+.tab_b_title_font_style{color:#336699;text-align:center;cursor: hand;padding-top:4px;}
+/*主体部分样式*/
+.tab_b_main_tab {border:1 solid #99BBE8;border-width:1 1 0 1;background:#FFFFFF;}
+
+/* tab_v页面样式 */
+/*整体标签样式*/
+.tab_v_item_style{background: url(../images/aiportalTab/item_bg_v.gif) repeat-y right; height:100%;padding:10px 0 10px 0;}
+/*TITLE样式含左边的图片*/
+.tab_v_title_style{padding-left:10px;color:#15428B;float:left;height:24px;z-index:100;margin-top:1px;background:url(../images/aiportalTab/tagleft1_v.gif) left bottom  no-repeat;}
+/*TITLE样式含右边的图片*/
+.tab_v_title_style a{padding-right:10px;float:right;height:24px;margin-top:1px;background:url(../images/aiportalTab/tagright1_v.gif) right bottom  no-repeat;}
+/*聚焦当前TITLE样式含左边的图片*/
+.tab_v_title_style_current{padding-left:10px;color:#15428B;float:left;height:24px;z-index:100;margin-top:1px;background:url(../images/aiportalTab/tagleft2_v.gif) left bottom  no-repeat;}
+/*聚焦当前TITLE样式含右边的图片*/
+.tab_v_title_style_current a{padding-right:10px;float:right;height:24px;margin-top:1px;background:url(../images/aiportalTab/tagright2_v.gif) right bottom  no-repeat;}
+/*鼠标触发TITLE样式含左边的图片*/
+.tab_v_title_style_hover{padding-left:10px;color:#000000;float:left;height:24px;z-index:100;margin-top:1px;background:url(../images/aiportalTab/tagleft3_v.gif) left bottom  no-repeat;}
+/*鼠标触发TITLE样式含右边的图片*/
+.tab_v_title_style_hover a{padding-right:10px;float:right;height:24px;margin-top:1px;background:url(../images/aiportalTab/tagright3_v.gif) right bottom  no-repeat;}
+/*title的字体样式*/
+.tab_v_title_font_style{color:#000000;cursor: hand;padding-top:6px;}
+/*主体部分样式*/
+.tab_v_main_tab {border:solid #1D82DE;border-width:1 1 1 0;background:#FFFFFF;}
+
+/* TAB标签 END  */
+
+#copyright{ background:url(../images/aiportalTab/esop_disbottom.gif) repeat-x; text-align:left; padding-top:4px;bottom:0;left:0;width:100%;padding-bottom:5px;position:absolute;}
+.login_font2{color:#15428B; font-weight:bold;font-family:SimSun;font-size:12px;}

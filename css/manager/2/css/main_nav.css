@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+.nav {
+	position: relative;
+	margin:0px auto;
+
+}
+.navinner{}
+
+.nav_arrow_l{
+	background:url(../images/main/nav_arrow_l.gif) no-repeat 10px 6px;
+	cursor:pointer;
+	display:inline-block;
+	*display:inline !important;
+	*display:inline;
+	height:26px;
+	width:20px;
+}
+.nav_arrow_r{
+	background:url(../images/main/nav_arrow_r.gif) no-repeat 6px 6px;
+	cursor:pointer;
+	display:inline-block;
+	*display:inline !important;
+	*display:inline;
+	float:right;
+	height:26px;
+	width:20px;
+}
+.nav_arrow_gray_l{
+	background:url(../images/main/nav_arrow_g_l.gif) no-repeat 10px 6px;
+	display:inline-block;
+	*display:inline !important;
+	*display:inline;
+	height:26px;
+	width:20px;
+}
+.nav_arrow_gray_r{
+	background:url(../images/main/nav_arrow_g_r.gif) no-repeat 6px 6px;
+	display:inline-block;
+	*display:inline !important;
+	*display:inline;
+	height:26px;
+	width:20px;
+}
+.navlist {
+	background:url(../images/main/main_nav.jpg) repeat-x 0 0;
+	height: 50px;
+	line-height: 26px;
+}
+.nav li { 
+	display: inline;
+	float: left;
+	margin: 0 0 0 -2px;
+	padding: 0 4px 0 6px;
+}
+.navlist li a {
+	color: #fff !important;
+	font-size:12px;
+	padding:0 14px;
+	text-align: center;
+}
+
+.navlist li a:hover{
+	color: #fff;
+}
+.navlist li a.current{
+	background:url(../images/main/main_nav_hover.jpg) repeat-x 0 0;
+	color: #fff;
+}
+.subnav {
+	background:none;
+	color: #b4b4b4;
+	float: left;
+	height: 24px;
+	left: 0;
+	line-height: 24px;
+	position: absolute;
+	top: 26px;
+	white-space: nowrap;
+}
+* html .subnav {
+	margin: 0 10px 0 -10px;/* IE 6 and below */
+}
+.subnav p { 
+	color:#b4b4b4;
+	padding: 0 10px;
+}
+.subnav a{ 
+	color:#b4b4b4;
+	display: inline;
+	font-size: 100%;
+	padding: 0;
+}
+
+[class~="subnav"] a { 
+	padding: 0 3px;
+}
+
+.subnav a.subnav_cur{
+	color:#cc9900;
+}
+
+/* subnav position and pointer position */
+#subnav0 {
+	left: 0;
+}
+#subnav1 {
+	left: 25px;
+}
+#subnav2 {
+	left: 80px;
+}
+#subnav3 {
+	left: 100px;
+}
+#subnav4 {
+	left: 190px;
+}
+#subnav5{
+	left: 200px;
+}
+#subnav6{
+	left: 360px;
+}
+#subnav7{
+	left: 300px;
+}
+
+#subnav1, #subnav2, #subnav3, #subnav4,#subnav5,#subnav6,#subnav7{
+	min-width: 110px;
+}
+
+
+/* Note
+==========================================================*/
+.note {
+	color:#666666;
+	margin: 0 15px 10px;
+}
+.note span {
+	float:right;
+}
+.disable {
+	display: none;
+}

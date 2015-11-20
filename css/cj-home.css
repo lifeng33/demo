@@ -1,0 +1,452 @@
+/* CSS Document */
+/*CSS reset*/
+html {
+	background: #fff;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code, form, fieldset, legend, input, button, textarea, p, blockquote, th, td {
+	margin: 0;
+	padding: 0;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+fieldset, img {
+	border: 0;
+}
+img {
+	vertical-align:middle;
+}
+address, caption, cite, code, dfn, em, var, optgroup {
+	font-style: inherit;
+	font-weight: inherit;
+}
+del, ins {
+	text-decoration: none;
+}
+li {
+	list-style: none;
+}
+caption {
+	text-align: left;
+}
+q:before, q:after {
+	content: '';
+}
+abbr, acronym {
+	border: 0;
+	font-variant: normal;
+}
+sup {
+	vertical-align: baseline;
+}
+sub {
+	vertical-align: baseline;
+}
+legend {
+	color: #000;
+}
+div{
+        scrollbar-face-color: #3498D6; /*立体滚动条的颜色（包括箭头部分的背景色）*/ 
+		scrollbar-arrow-color: #fff; /*箭头颜色*/
+		scrollbar-track-color: #ccc; /*背景颜色*/
+		scrollbar-highlight-color: #2c2c2c; /*亮边颜色*/
+		scrollbar-shadow-color: #adadad; /*暗边颜色*/
+		scrollbar-3dlight-color: #adadad; /*亮边框颜色*/
+		scrollbar-darkshadow-color: #48486c; /*立体滚动条阴影的颜色*/ 
+		scrollbar-base-color: #fcfcfc; /*滚动条的基色*/ 
+}
+input, button, textarea, select, optgroup, option {
+	font-family: inherit;
+	font-size: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+}
+input, button, textarea, select {
+*font-size:100%;
+	vertical-align:middle;
+}
+dfn {
+	vertical-align:top;
+	font-size:12px;
+	font-weight:bold;
+}
+/*娴姩*/
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+.clearfix {
+	display: block;
+}
+/*瀹氫綅*/
+.tl, .t_l {
+	text-align: left;
+}
+.tc, .t_c {
+	text-align: center;
+}
+.tr, .t_r {
+	text-align: right;
+}
+.bc {
+	margin-left: 0;
+	margin-right: 0;
+}
+.fl, .f_l {
+	float: left;
+	display: inline;
+}
+.fr, .f_r {
+	float: right;
+	display: inline;
+}
+.vm {
+	vertical-align: middle;
+}
+.pr {
+	position: relative;
+}
+.pa {
+	position: absolute;
+}
+.abs-right {
+	position: absolute;
+	right: 0;
+}
+.zoom {
+	zoom:1;
+}
+.hidden {
+	visibility: hidden;
+}
+.none, .dis_none {
+	display: none;
+}
+/*杈硅窛*/
+.m10 {
+	margin: 10px;
+}
+.mt10 {
+	margin-top: 10px;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+.ml10 {
+	margin-left: 10px;
+}
+.mr10 {
+	margin-right: 10px;
+}
+/*layout style*/
+body {
+	font:12px/1.5 Arial, Helvetica, sans-serif;
+}
+a {
+	color:#0071ad;
+	text-decoration:none;
+}
+a:hover {
+	color:#f60;
+	text-decoration:none;
+}
+
+/*home椤�*/
+.schedule1{/*涓婄彮*/
+	background:#98FB98;
+}
+.schedule2{/*鍏紤*/
+	background:#ccc;
+}
+.schedule3{/*灏遍*/
+	background:#ff8a00;
+}
+.schedule4{/*鍩硅*/
+	background:#2fc4c5;
+}
+.schedule5{/*浼氳*/
+	background:#b277ec;
+}
+.schedule6{/*浜嬪亣*/
+	background:#0000FF;
+}
+.schedule7{/*鐥呭亣*/
+	background:#ff4c83;
+}
+.schedule8{/*鏃峰伐*/
+	background:#c28a41;
+}
+.schedule9{/*杩熷埌*/
+	background:#ff0000;
+}
+.schedule10{/*鏃╅��*/
+	background:#f510bc;
+}
+.schedule11{/*鍔犵彮*/
+	background:#008000;
+}
+
+.schedule12{/*浜嬪亣*/
+	background:#00CCFF;
+}
+
+.cj-homeRegion{
+	padding:0 10px;
+	margin:0 auto;
+	overflow:hidden;
+}
+
+.cj-homeRegionLeft{
+	width:76%;
+	float:left;
+	overflow:hidden;
+}
+.cj-homeRegionRight{
+	width:24%;
+	float:right;
+}
+.cj-commonbox{
+	width:48.5%;
+	border:1px solid #ccc;
+	float:left;
+	margin-right:1%;
+	_margin-right:9px;
+	margin-top:10px
+}
+.cj-commonbox .cj-commonboxttl{
+	width:100%;
+	height:30px;
+	line-height:30px;
+	background:url(../images/homeboxttlbg.jpg) repeat-x;
+	position:relative;
+}
+.cj-commonbox .cj-commonboxttl span{
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	margin-left:10px;
+}
+.cj-commonbox .cj-commonboxttl span.s{
+	display:inline-block;
+	height:30px;
+	padding-right:10px;
+	background:url(../images/homettldot.gif) right center no-repeat;
+}
+.cj-commonbox .cj-commonboxttl .homemorebtn{
+	display:inline-block;
+	width:45px;
+	height:30px;
+	background:url(../images/homemorebtn.jpg) left center no-repeat;
+	position:absolute;
+	right:5px;
+	top:0;
+}
+.cj-commonbox .cj-commonboxcnt{
+	height:166.5px;
+	overflow:hidden;
+}
+.cj-commonbox .cj-commonboxcnt ul.homenewslist{
+	padding:5px;
+}
+.homenewslist li{
+	display:inline-block;
+	width:100%;
+	height:26px;
+	line-height:26px;
+	overflow:hidden;
+	background:url(../images/cj-doti.gif) left 8px no-repeat;
+	text-indent:8px;
+}
+.homenewslist li a{
+	color:#333;
+}
+.homenewslist li a.red{
+	color:#c00;
+}
+.homenewslist li a:hover{
+	color:#f60;
+}
+.homenewslist li a.red:hover{
+	color:#06F;
+}
+.homenewslist li span.fr{
+	color:#999;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.performanceTrack{
+	width:100%;
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.performanceTrack th,.performanceTrack td{
+	height:24px;
+	line-height:24px;
+}
+.performanceTrack th{
+	background:#eaf1f4;
+}
+.performanceTrack td{
+	text-align:center;
+}
+.performanceTrack td.t_r{
+	text-align:right;
+	color:#175780;
+	font-size:12px;
+}
+.performanceTrack .low{
+	color:#ff0000;
+}
+.mySchedule{
+	width:100%;
+}
+.mySchedule th{
+	background:#eaf1f4;
+	color:#597a8e;
+}
+.mySchedule td{
+	text-align:center;
+}
+.mySchedule th,.mySchedule td{
+	height:23px;
+	line-height:23px;
+	border:1px solid #eaf1f4;
+}
+.checkwork{
+	width:99.5%;
+	height:241px;
+	overflow:hidden;
+	border:1px solid #ccc;
+	margin-top: 10px;
+}
+.checkwork .checkworkttl{
+	width:100%;
+	height:26px;
+	line-height:26px;
+	background:#edf5f8;
+	font-size:14px;
+	font-weight:bold;
+}
+.checkworktbl{
+	width:100%;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.checkworktbl th{
+	color:#597a8e;
+}
+.checkworktbl .gray{
+	color:#999;
+}
+.checkworktbl .red{
+	color:#ff0000;
+}
+.checkworktbl .green{
+	color:#38a238;
+}
+.checkworktbl th,.checkworktbl td{
+	padding:5px 0;
+}
+.checkworktbl td{
+	border-bottom:1px dotted #ccc;
+}
+.correctSingle{
+	width:99.5%;
+	height:162px;
+	border:1px solid #ccc;
+	border-top:none;
+}
+.correctSingle .correctSinglettl{
+	width:100%;
+	height:26px;
+	line-height:26px;
+	background:#edf5f8;
+	font-size:14px;
+	font-weight:bold;
+}
+.correctSingletbl{
+	width:100%;
+	border:1px solid #fff;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.correctSingletbl th{
+	color:#597a8e;
+}
+.correctSingletbl th,.correctSingletbl td{	
+	height:27px;
+	line-height:27px;
+}
+.correctSingletbl td.f11{
+	font-size:11px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.scheduleSort{
+	width:100%;
+	border:1px solid #d9e7ec;
+	margin:10px 0;
+	background:#edf5f8;
+	padding:10px 0;
+	overflow:hidden;
+	height: 4px
+}
+.scheduleSort ul{
+	width:99%;
+	margin:0 auto;
+}
+.scheduleSort li{
+	display:inline-block;
+	float:left;
+	width:9%;
+}
+.scheduleSort li em,.scheduleSort li span{
+	display:inline-block;
+	float:left;
+	height:14px;
+	line-height:14px;
+}
+.scheduleSort li em{
+	width:14px;
+	margin-right:5px;
+}
+.scheduleDetails{
+	border:1px solid #ccc;
+	padding:1px;
+	height:115px;
+	overflow-x:scroll;
+	margin-top: 15px;
+}
+.scheduleDetailstbl th{
+	height:24px;
+	line-height:24px;
+	background:url(../images/homeboxttlbg.jpg) repeat-x;
+	color:#fff;
+}
+.scheduleDetailstbl td{
+	text-align:center;
+	height:22px;
+	border:1px solid #fff;
+}
+.scheduleDetailstbl td.dates{
+	font-weight:bold;
+	color:#175780;
+	width: 1000px;
+}
+
+.img-scroll {position:relative;width:99%;height:78px;}
+.img-scroll .prev {position:absolute;display:block;width:30px;height:60px;top:6px;margin-right:10px;}
+.img-scroll .next {position:absolute;display:block;width:30px;height:60px;top:6px;margin-left:10px;}
+.img-scroll .prev {left:0;cursor:pointer}  
+.img-scroll .next {right:0;cursor:pointer}
+.img-list { width:95%; height:78px;overflow:hidden;padding-top:8px;float: left;margin-left: 30px}
+.img-list ul{width:9999px;}
+.img-list li{width:41px;height:78px;float:left;display:inline;}
+.img-list ul li div{border:1px solid #4daae5;text-align:center;height: 35%;font-weight:bold;}
+
+
+

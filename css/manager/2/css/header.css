@@ -1,0 +1,166 @@
+@charset "utf-8";
+/** body背景 **/
+body{
+	background:url(../images/main/wallpaper.jpg) repeat 0 0;
+	font-family:"Microsoft YaHei";
+}
+/** 页面头部内容 logo,top_nav,user_opbar**/
+#header{
+	background:url(../images/main/header_bg.jpg) repeat-x 0 0;
+	height:49px;
+	overflow:hidden;
+	width:100%;
+}
+#logo{
+	background:url(../images/main/logo.jpg) repeat-x 0 0;
+	display:block;
+	float:left;
+	height:49px;
+	overflow:hidden;
+	width:300px;
+}
+
+#top_nav{
+	float:right;
+	height:24px;
+	margin-top:3px;
+	overflow:hidden;
+}
+#top_nav ul{
+	float:right;
+	list-style-type: none;
+}
+#top_nav ul li{
+	background:url(../images/main/top_nav_line.jpg) no-repeat right center;
+	float:right;
+	line-height:24px;
+	text-align:center;
+	padding:0 8px;
+}
+#top_nav ul li a{
+	color:#91bfe0;
+	display:block;
+	text-decoration:none;
+}
+#top_nav ul li a:hover{
+	color:#ffffff;
+}
+/** main nav **/
+#main_nav{
+	background:url(../images/main/main_nav_bg.jpg) repeat-x 0 0;
+	height:26px;
+	overflow:hidden;
+}
+#main_nav ul{
+	float:left;
+	text-decoration:none;
+	list-style:none;
+}
+#main_nav li{
+	cursor:pointer;
+	float:left;
+	line-height:25px;
+	margin-right:1px;	
+	text-align:center; 	
+}
+#main_nav li a{
+	color:#e7e7e7;
+	display:block;
+	padding:0 14px;
+	text-align:center;
+	text-decoration:none;	
+}
+#main_nav li a:hover{
+	background:url(../images/main/main_nav_hover.jpg) repeat-x; 
+	color:#ffffff;
+}
+#main_nav li.curNav{
+	background:url(../images/main/main_nav_hover.jpg) repeat-x; 
+	color:#ffffff;
+}
+
+
+/* 主导行下方 当前显示内容 */
+#cur_region{
+	background:url(../images/main/cur_region_bg.jpg) repeat-x;
+	height:25px;
+}
+#cur_user{
+	color:#ebebeb; 
+	float:left;
+	line-height:24px;
+	text-indent:10px;
+}
+#cur_user span{
+	color:#ebebeb;
+	font-weight:bold;
+}
+
+#user_opbar{
+	float:right;
+	height:24px;
+	margin-top:3px;
+	overflow:hidden;
+}
+#user_opbar ul{
+	float:right;
+	list-style-type: none;
+}
+#user_opbar ul li{
+	color:#ebebeb;
+	float:right;
+	line-height:22px;
+	text-align:center;
+	padding:0 8px;
+}
+#user_opbar ul li a{
+	color:#ebebeb;
+	display:block;
+	text-decoration:none;
+	text-indent:10px;
+}
+#user_opbar ul li a:hover{
+	color:#ffffff;
+}
+#user_opbar #she_zhi{
+	background:url(../images/main/she_zhi_ico.png) no-repeat 0 4px;
+}
+#user_opbar #ping_lun{
+	background:url(../images/main/ping_lun_ico.png) no-repeat 0 4px;
+}
+
+/* 个性设置和评论该页 */
+.she_shi_ping_lun{
+	position:absolute;
+	right:10px;
+	top:76px;
+	height:22px;
+	line-height:22px;
+	z-index:9999;
+}
+.she_shi_ping_lun ul li{
+	color:#ebebeb;
+	float:right;
+	line-height:22px;
+	text-align:center;
+	padding:0 8px;
+}
+.she_shi_ping_lun ul li a{
+	color:#ebebeb;
+	cursor:pointer;
+	display:block;
+	text-decoration:none;
+	text-indent:10px;
+}
+.she_shi_ping_lun ul li a:hover{
+	color:#ffffff;
+}
+.she_shi_ping_lun .she_zhi{
+	background:url(../images/main/she_zhi_ico.png) no-repeat 0 4px;
+}
+.she_shi_ping_lun .ping_lun{
+	background:url(../images/main/ping_lun_ico.png) no-repeat 0 4px;
+}
+.she_shi_ping_lun .biao_qian{
+	background:url(../images/main/biao_qian_ico.png) no-repeat 0 4px;
+}

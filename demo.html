@@ -12,55 +12,21 @@
 	<script type="text/javascript" src="./js/easyui/jquery-1.6.min.js"></script>
 	<script type="text/javascript" src="./js/easyui/jquery.easyui.min.js"></script>
 	<script type="text/javascript" src="./js/easyui/easyui-lang-zh_CN.js"></script>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?&v=1.4"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?&v=1.4"></script> 
 	<script type="text/javascript" src="./js/my/demo.js"></script>
-	<style>
-		#nowTime{
-			color:red;
-			font-size:20pt;
-			line-height:54px;
-			display:inline;
-			float:left;
-		}
-		#remainderTime{
-			color:red;
-			font-size:20pt;
-			line-height:54px;
-			display:inline;
-			float:right;
-		}
-		#mapContainer{
-			width: 97%; 
-			height: 90%; 
-		}
-		table{
-			border:1px solid black;
-			margin:auto;
-			height:100%;
-			width:80%;
-		}
-		table tr{
-			border:1px solid black;
-			height:20%;
-		}
-		table tr td{
-			border:1px solid black;
-			width:20%;
-			text-align:center;
-		}
-	</style>
+	<link rel="stylesheet" type="text/css" href="./css/my/demo.css">
 </head>
 <body class="easyui-layout">
-    <div data-options="region:'north',title:'North Title',split:true" style="height:100px;padding:4px;text-align:center;background:#f2f4ff;">
+    <div data-options="region:'north',split:true" style="height:100px;padding:20px;text-align:center;background:#f2f4ff;">
 		<div id="nowTime"></div>
 		<iframe width="256" scrolling="no" height="54" marginheight="0" marginwidth="0" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&id=42&icon=1&num=3">
 		</iframe>
 		<div id="remainderTime"></div>
 	</div>   
-    <div data-options="region:'south',title:'South Title',split:true" style="height:100px;">
-	
+    <div data-options="region:'south',split:true" class="southArea">
+		该网页最终解释权归李锋所有，哇哈哈
 	</div>   
-    <div data-options="region:'east',iconCls:'icon-reload',title:'East',split:true" style="width:300px;padding:5px;">
+    <div data-options="region:'east',iconCls:'icon-reload',title:'地图',split:true" style="width:300px;padding:5px;">
 		<div>
 			地址：<input id="txtSearch" type="text" />
 			<input type="button" value="搜索" onclick="search()" />
@@ -68,9 +34,10 @@
 		</br>
 		<div style="border: 1px solid gray;" id="mapContainer"></div>
 	</div>   
-    <div data-options="region:'west',title:'West',split:true" style="width:200px;padding:5px;">
+    <div data-options="region:'west',title:'菜单',split:true" style="width:200px;padding:5px;">
 		<div class="easyui-accordion">   
 			<div title="Title1" data-options="iconCls:'icon-save',selected:true" style="overflow:auto;padding:5px;text-align:center;"> 
+http://news.sohu.com/rss/shehui.xml
 			</div>   
 			<div title="Title2" data-options="iconCls:'icon-reload'" style="padding:5px;text-align:center;">   
 			</div>   
@@ -78,50 +45,93 @@
 			</div>   
 		</div>  
 	</div>   
-    <div data-options="region:'center',title:'center title'" style="padding:5px;background:#eee;">
-		<table>
-			<tr>
-				<td>
-					<a href="tencent://message/?Menu=yes&uin=352438201&Service=200&Site=JooIT.com&sigT=bc799de13f6b616996ffdda3884f3daf66572104e865057627b2bcdda186f3d2" title="联系李锋" target="_black">
-						<img style="border:0px;" src="./image/qq.jpg">
-					</a>
-				</td>
-				<td>
-					<a href="http://www.baidu.com" title="百度一下" target="_black">
-						<img style="border:0px;" src="./image/baidu.png">
-					</a>
-					
-				</td>
-				<td>
-				<a href="https://www.taobao.com/" title="淘宝" target="_black">
-						<img style="border:0px;" src="./image/taobao.jpg">
-					</a>
-				</td>
-				<td>
-				
-				</td>
-				<td>
-				
-				</td>
-			</tr>
-			<tr>
-				<td>
-				</td>
-				<td>
-				
-				</td>
-				<td>
-				
-				</td>
-				<td>
-				
-				</td>
-				<td>
-				
-				</td>
-			</tr>
-		</table>
+    <div data-options="region:'center'">
+		<div class="easyui-tabs myTabs">  
+			<div title=" 买 " data-options="closable:true,iconCls:'icon-zhuanTC'" style="overflow:auto;padding:10px;">   
+				<table>
+					<tr>
 
+						<td>
+							<a href="https://www.taobao.com/" title="淘宝" target="_black">
+								<img src="./image/taobao.png">
+							</a>
+						</td>
+						<td>
+							<a href="https://www.tmall.com" title="天猫" target="_black">
+								<img src="./image/tiammao.jpg">
+							</a>
+						</td>
+						<td>
+							<a href="http://www.jd.com/" title="京东" target="_black">
+								<img src="./image/jingdong.jpg">
+							</a>
+						</td>
+						<td>
+							<a href="http://www.vip.com/" title="唯品会" target="_black">
+								<img src="./image/weipinhui.jpg">
+							</a>
+						</td>
+					</tr>
+					<tr>
+						<td>
+							<a href="http://www.dangdang.com/" title="当当网" target="_black">
+								<img src="./image/dangdang.jpg">
+							</a>
+						</td>
+						<td>
+							<a href="http://www.kongfz.com/" title="孔夫子旧书网" target="_black">
+								<img src="./image/kongfuzi.jpg">
+							</a>
+						</td>
+						<td>
+							<a href="http://www.12306.cn/" title="12306火车票" target="_black">
+								<img src="./image/12306.jpg">
+							</a>
+						</td>
+					</tr>
+				</table>
+  
+			</div>  
+			<div title=" 学 " data-options="closable:true,iconCls:'icon-edit'" style="padding:10px;">   
+				<table>
+					<tr>
+						<td>
+							<a href="http://www.baidu.com" title="百度一下" target="_black">
+								<img src="./image/baidu.png">
+							</a>
+						</td>
+						<td>
+							<a href="http://translate.google.cn/" title="谷歌翻译" target="_black">
+								<img src="./image/googleTranslate.png">
+							</a>
+						</td>
+						<td>
+							<a href="http://www.cnki.net/" title="中国知网" target="_black">
+								<img src="./image/zhongguozhiwang.jpg">
+							</a>
+						</td>
+					</tr>
+				</table>
+
+			</div>   
+ 
+			<div title=" 玩 " data-options="iconCls:'icon-play',closable:true" style="padding:10px;">   
+				<table>
+					<tr>
+						<td>
+							<a href="tencent://message/?Menu=yes&uin=352438201&Service=200&Site=JooIT.com&sigT=bc799de13f6b616996ffdda3884f3daf66572104e865057627b2bcdda186f3d2" title="联系李锋" target="_black">
+								<img src="./image/qq.jpg">
+							</a>
+						</td>
+						<td>
+							<a href="ttp://www.iqiyi.com/" title="爱奇艺" target="_black">
+								<img src="./image/aiqiyi.jpg">
+							</a>
+						</td>
+					</tr>
+				</table>    
+			</div>   
+		</div>  
 	</div>   
   </body>
 </html>

@@ -1,0 +1,38 @@
+#nowTime{
+	color:red;
+	font-size:20pt;
+	line-height:54px;
+	display:inline;
+	float:left;
+}
+#remainderTime{
+	color:red;
+	font-size:20pt;
+	line-height:54px;
+	display:inline;
+	float:right;
+}
+#mapContainer{
+	width: 97%; 
+	height: 90%; 
+}
+table{
+	margin:auto;
+	height:100%;
+	width:90%;
+}
+table tr{
+	height:150px;
+}
+table tr td{
+	border:1px solid black;
+	width:20%;
+	text-align:center;
+}
+.southArea{
+	height:55px;
+	font-size:13pt;
+	color:#249fe1;
+	line-height:54px;
+	text-align:center;
+}
